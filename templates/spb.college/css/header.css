@@ -1,0 +1,237 @@
+
+
+.header-info{
+
+}
+
+.heade-info-box{
+  display: flex;
+  flex-direction: column;
+  padding: 24px 144px;
+  gap: 32px;
+  background: #FFFFFF;
+  box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.08);
+
+}
+
+.header-info-title{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  gap: 74px;
+  width: 1628px;
+  height: 93.84px;
+}
+
+.header-info-logo {
+
+}
+
+.header-info-text{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  right: 110px;
+}
+
+.header-info-text__one{
+  font-family: 'Museo Sans 300 Light';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: #64748F;
+}
+
+.header-info-text__two{
+  font-family: 'Forum';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 35px;
+  color: #64748F;
+}
+
+.header-info-service {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 500px;
+  height: 30px;
+}
+
+.header-info-service__language{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 8px;
+  gap: 10px;
+  width: 72px;
+  height: 33px;
+  background: #294985;
+}
+
+.header-info-service__RU {
+  width: 22px;
+  height: 19px;
+  font-family: 'Museo Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #E9ECF2;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.header-info-service__dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.header-info-service__dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 50px;
+}
+
+.header-service__dropdown-content a:first-child
+{
+  background: url('http://icons.iconarchive.com/icons/custom-icon-design/flag-3/16/Russia-Flag-icon.png') no-repeat left center;
+}
+
+.header-service__dropdown-content a:last-child
+{
+  background: url('https://icons.iconarchive.com/icons/fatcow/farm-fresh/16/flag-usa-icon.png') no-repeat left center;
+}
+
+.header-service__dropdown-content a {
+  color: black;
+  padding: 2px 0 2px 25px;
+  text-decoration: none;
+  display: block;
+}
+
+.header-service__dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.header-service__dropdown:hover .header-service__dropdown-content {
+  display: block;
+}
+
+.header-menu{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+  width: 1628px;
+  height: 68px;
+}
+
+.header-menu__one {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 38px;
+  width: 1628px;
+  height: 22px;
+}
+
+.header-menu__item-main{
+  font-family: 'Museo Sans 300 Light';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  text-decoration: underline;
+  color: #294985;
+}
+
+.header-menu__item{
+  font-family: 'Museo Sans 300 Light';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #686868;
+}
+
+.header-menu__two{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 38px;
+  width: 1628px;
+  height: 22px;
+}
+
+.header-main-link{
+  color: #294985;
+}
+
+.header-main-link:visited {
+  color: #294985;
+}
+
+.header-main-link:active{
+  color: #294985;
+}
+
+.header-main-link:hover{
+  color: #686868;
+  text-decoration: none;
+}
+
+
+
+/* Для мобильной версии сайта */
+.heade-info-box-compact{
+  display: flex;
+  width: 359px;
+  margin: 10px 0px;
+}
+
+.heade-info-box-compact__logo{
+  width: 59.96px;
+  height: 53.3px;
+
+}
+
+.heade-info-box-compact__title{
+  width: 24px;
+  height: 24px; 
+  flex-grow: 1;
+}
+
+.heade-info-box-compact__hamburger{
+
+}
+
+@media (max-width: 375px) {
+  .heade-info-box{
+    display: none;
+  }
+  
+}
+
+@media (min-width: 376px) {
+  .heade-info-box-compact{
+    display: none;
+  }
+  
+}
+
+/* Для мобильной версии сайта конец */

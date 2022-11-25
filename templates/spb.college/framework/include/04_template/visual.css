@@ -1,0 +1,86 @@
+/*
+Visual Modificator Classes
+Version 1.01
+Author name : Rim Zabarov
+Company: SIMAI
+Website: http://simai.ru
+
+Reductions:
+
+b  - border (use additions);
+
+Additions (used together reductions):
+
+l - left;
+r - right;
+t - top;
+b - bottom;
+a - all (only for borders);
+
+Units:
+
+none - px or none;
+p    - percent;
+e    - em;
+r    - rem;
+
+*/
+
+/* BORDER */
+
+.bn   { border        : none; }
+.bl   { border-left   : 1px solid #eee; }
+.bt   { border-top    : 1px solid #eee; }
+.br   { border-right  : 1px solid #eee; }
+.bb   { border-bottom : 1px solid #eee; }
+.ba   { border        : 1px solid #eee; }
+
+/* BACKGROUND */
+
+.bg-white { background: rgb(255,255,255); }
+.bg-black { background: rgb(6,6,6); }
+
+.bg-alpha-white { background: rgba(255,255,255,0.5); }
+.bg-alpha-black { background: rgba(0,0,0,0.5); }
+
+
+/* MASK */
+.mask-dark-gradient-top:after { content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: linear-gradient(180deg,rgba(0,0,0,.5) 0,rgba(0,0,0,0) 30%,rgba(0,0,0,0) 100%); }
+.mask-dark-gradient-bottom:after { content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: linear-gradient(180deg,rgba(0,0,0,0) 0,rgba(0,0,0,0) 30%,rgba(0,0,0,0.5) 100%); }
+
+.mask-pattern-dot-black:after {content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: transparent url('images/pattern-dot-black.png') repeat top left;}
+.mask-pattern-dot-opacity-1:after  {content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: transparent url('images/pattern-dot-opacity-1.png') repeat top left;}
+.mask-pattern-dot-opacity-2:after  {content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: transparent url('images/pattern-dot-opacity-2.png') repeat top left;}
+
+.mask-pattern-diagonal-black:after  {content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: transparent url('images/pattern-diagonal-black.png') repeat top left;}
+.mask-pattern-diagonal-opacity-1:after  {content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: transparent url('images/pattern-diagonal-opacity-1.png') repeat top left;}
+.mask-pattern-diagonal-opacity-2:after  {content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: transparent url('images/pattern-diagonal-opacity-2.png') repeat top left;}
+
+.mask-pattern-hline-black:after  {content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: transparent url('images/pattern-hline-black.png') repeat top left;}
+.mask-pattern-hline-opacity-1:after  {content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: transparent url('images/pattern-hline-opacity-1.png') repeat top left;}
+.mask-pattern-hline-opacity-2:after  {content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: transparent url('images/pattern-hline-opacity-2.png') repeat top left;}
+
+.mask-pattern-vline-black:after  {content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: transparent url('images/pattern-vline-black.png') repeat top left;}
+.mask-pattern-vline-opacity-1:after  {content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: transparent url('images/pattern-vline-opacity-1.png') repeat top left;}
+.mask-pattern-vline-opacity-2:after  {content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: transparent url('images/pattern-vline-opacity-2.png') repeat top left;}
+
+/* SHADOW */
+
+.shadow-none,
+.shadow-0    { box-shadow : none; }
+.shadow-1    { box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);     }
+.shadow-2    { box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);     }
+.shadow-3    { box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);   }
+.shadow-4    { box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22); }
+.shadow-5    { box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22); }
+
+/* EFFECTS */
+
+.hover-shadow { transition: all 0.2s ease-in-out; transform: translateY(0); }
+.hover-shadow:hover {box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23); transform: translateY(-3px);}
+
+/* For container div set class .effect */
+
+.effect { overflow:hidden; }
+.effect .hover-scale { transition : all 1s ease-out; }
+.effect .hover-scale:hover { transform  : scale(1.1); }

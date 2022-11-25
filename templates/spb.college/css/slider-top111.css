@@ -1,0 +1,155 @@
+/* .slider-one{
+width: 1920px;
+height: 633px;
+background: url(../img/Frame\ 37.png);
+} */
+
+
+.slider-one {box-sizing:border-box}
+
+/* Контейнер слайд-шоу */
+.slideshow-container {
+/* max-width: 1000px; */
+/* position: relative; */
+/* margin: auto; */
+}
+
+/* Скрыть изображения по умолчанию */
+.mySlides {
+  display: none;
+  width: 1833px;
+  height: 635px;
+  background: url(../img/Frame\ 37.png) no-repeat;
+  background-size: auto;
+  background-size: 1833px;
+}
+
+.mySlides__box{
+  width:491px; 
+  height:605px;
+  background: rgba(255, 255, 255, 0.01);
+  backdrop-filter: blur(32px);
+}
+
+.mySlides__info{
+  position: relative;
+  width: 290px;
+  height: 256px;
+  left: 185px;
+  top: 175px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+.mySlides__title{
+  font-size: 32px;
+  line-height: 35px;
+  color: #F8F6F2;
+
+}
+
+.mySlides__text{
+  color: #E9ECF2;
+  font-size: 16px;
+  line-height: 144%;
+}
+
+.mySlides__button{
+  width: 290px;
+  height: 39px;
+  background: #294985;
+  border-radius: 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mySlides__more{
+  color: #E9ECF2;
+  font-size: 16px;
+  line-height: 144%;
+}
+
+/* Вперед иназад кнопки */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 100%;
+  width: auto;
+  /* margin-top: -22px; */
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Положение "next кнопки" справа */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* При наведении курсора добавьте черный цвет фона с немного прозрачным */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Подпись текст */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Номер текста (1/3 и т.д.) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Точки/пули/индикаторы */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Исчезающая анимация */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}

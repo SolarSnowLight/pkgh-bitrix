@@ -1,0 +1,125 @@
+/* SITE BACKGROUND */
+
+/* Colors */
+.body-bg-11{background:#fff}
+.body-bg-12{background:#e5e5e5}
+.body-bg-13{background:#333}
+.body-bg-14{background:rgba(31,123,198,0.1)}
+.body-bg-15{background:rgba(142,196,73,0.1)}
+.body-bg-16{background:rgba(70,104,137,1)}
+
+/* Light Patterns */
+.body-bg-21 {background: url("../../../../../images/bg/ptn-light/01.png") repeat;}
+.body-bg-22 {background: url("../../../../../images/bg/ptn-light/02.png") repeat;}
+.body-bg-23 {background: url("../../../../../images/bg/ptn-light/03.png") repeat;}
+.body-bg-24 {background: url("../../../../../images/bg/ptn-light/04.png") repeat;}
+.body-bg-25 {background: url("../../../../../images/bg/ptn-light/05.png") repeat;}
+.body-bg-26 {background: url("../../../../../images/bg/ptn-light/06.png") repeat;}
+
+/* Dark Patterns */
+.body-bg-31 {background: url("../../../../../images/bg/ptn-dark/01.png") repeat;}
+.body-bg-32 {background: url("../../../../../images/bg/ptn-dark/02.png") repeat;}
+.body-bg-33 {background: url("../../../../../images/bg/ptn-dark/03.png") repeat;}
+.body-bg-34 {background: url("../../../../../images/bg/ptn-dark/04.png") repeat;}
+.body-bg-35 {background: url("../../../../../images/bg/ptn-dark/05.png") repeat;}
+.body-bg-36 {background: url("../../../../../images/bg/ptn-dark/06.png") repeat;}
+
+/* Theme Patterns */
+.body-bg-41 {background: url("../../../../../images/bg/ptn-theme/01.png") repeat;}
+.body-bg-42 {background: url("../../../../../images/bg/ptn-theme/02.png") repeat;}
+.body-bg-43 {background: url("../../../../../images/bg/ptn-theme/03.png") repeat;}
+.body-bg-44 {background: url("../../../../../images/bg/ptn-theme/04.png") repeat;}
+.body-bg-45 {background: url("../../../../../images/bg/ptn-theme/05.png") repeat;}
+.body-bg-46 {background: url("../../../../../images/bg/ptn-theme/06.png") repeat;}
+
+/* Theme Images */
+.body-bg-51 {background: url("../../../../../images/bg/img-theme/01.jpg") no-repeat; background-size: cover;}
+.body-bg-52 {background: url("../../../../../images/bg/img-theme/02.jpg") no-repeat; background-size: cover;}
+.body-bg-53 {background: url("../../../../../images/bg/img-theme/03.jpg") no-repeat; background-size: cover;}
+.body-bg-54 {background: url("../../../../../images/bg/img-theme/04.jpg") no-repeat; background-size: cover;}
+.body-bg-55 {background: url("../../../../../images/bg/img-theme/05.jpg") no-repeat; background-size: cover;}
+.body-bg-56 {background: url("../../../../../images/bg/img-theme/06.jpg") no-repeat; background-size: cover;}
+.minibg{background-repeat: no-repeat;background-size: cover;}
+
+
+/* HEADER BACKGROUND */
+
+/* Colors */
+.header-bg-11 {background: #C62828;}
+.header-bg-12 {background: #AD1456;}
+.header-bg-13 {background: #6B1B9A;}
+.header-bg-14 {background: #0D47A1;}
+.header-bg-15 {background: #01579B;}
+.header-bg-16 {background: #006064;}
+.header-bg-21 {background: #00695C;}
+.header-bg-22 {background: #2E7D32;}
+.header-bg-23 {background: #558B2F;}
+.header-bg-24 {background: #D84315;}
+.header-bg-25 {background: #6D4C41;}
+.header-bg-26 {background: #546E7A;}
+
+/* Dark Patterns */
+.header-bg-31 {background: url("../../../../../images/bg/ptn-dark/01.png") repeat;}
+.header-bg-32 {background: url("../../../../../images/bg/ptn-dark/02.png") repeat;}
+.header-bg-33 {background: url("../../../../../images/bg/ptn-dark/03.png") repeat;}
+.header-bg-34 {background: url("../../../../../images/bg/ptn-dark/04.png") repeat;}
+.header-bg-35 {background: url("../../../../../images/bg/ptn-dark/05.png") repeat;}
+.header-bg-36 {background: url("../../../../../images/bg/ptn-dark/06.png") repeat;}
+
+/* Images */
+.header-bg-41 {background: url("../../../../../images/bg/img-base/01.jpg") no-repeat; background-size: cover;}
+.header-bg-42 {background: url("../../../../../images/bg/img-base/02.jpg") no-repeat; background-size: cover;}
+.header-bg-43 {background: url("../../../../../images/bg/img-base/03.jpg") no-repeat; background-size: cover;}
+.header-bg-44 {background: url("../../../../../images/bg/img-base/04.jpg") no-repeat; background-size: cover;}
+.header-bg-45 {background: url("../../../../../images/bg/img-base/05.jpg") no-repeat; background-size: cover;}
+.header-bg-46 {background: url("../../../../../images/bg/img-base/06.jpg") no-repeat; background-size: cover;}
+.header-bg-51 {background: url("../../../../../images/bg/img-base/07.jpg") no-repeat; background-size: cover;}
+.header-bg-52 {background: url("../../../../../images/bg/img-base/08.jpg") no-repeat; background-size: cover;}
+.header-bg-53 {background: url("../../../../../images/bg/img-base/09.jpg") no-repeat; background-size: cover;}
+.header-bg-54 {background: url("../../../../../images/bg/img-base/10.jpg") no-repeat; background-size: cover;}
+.header-bg-55 {background: url("../../../../../images/bg/img-base/11.jpg") no-repeat; background-size: cover;}
+.header-bg-56 {background: url("../../../../../images/bg/img-base/12.jpg") no-repeat; background-size: cover;}
+
+
+ /* FOOTER BACKGROUND */
+
+/* Colors */
+.footer-bg-11 {background: #C62828;}
+.footer-bg-12 {background: #AD1456;}
+.footer-bg-13 {background: #6B1B9A;}
+.footer-bg-14 {background: #0D47A1;}
+.footer-bg-15 {background: #01579B;}
+.footer-bg-16 {background: #006064;}
+.footer-bg-21 {background: #00695C;}
+.footer-bg-22 {background: #2E7D32;}
+.footer-bg-23 {background: #558B2F;}
+.footer-bg-24 {background: #D84315;}
+.footer-bg-25 {background: #6D4C41;}
+.footer-bg-26 {background: #546E7A;}
+
+/* Dark Patterns */
+.footer-bg-31 {background: url("../../../../../images/bg/ptn-dark/01.png") repeat;}
+.footer-bg-32 {background: url("../../../../../images/bg/ptn-dark/02.png") repeat;}
+.footer-bg-33 {background: url("../../../../../images/bg/ptn-dark/03.png") repeat;}
+.footer-bg-34 {background: url("../../../../../images/bg/ptn-dark/04.png") repeat;}
+.footer-bg-35 {background: url("../../../../../images/bg/ptn-dark/05.png") repeat;}
+.footer-bg-36 {background: url("../../../../../images/bg/ptn-dark/06.png") repeat;}
+
+/* Images */
+.footer-bg-41 {background: url("../../../../../images/bg/img-base/01.jpg") no-repeat; background-size: cover;}
+.footer-bg-42 {background: url("../../../../../images/bg/img-base/02.jpg") no-repeat; background-size: cover;}
+.footer-bg-43 {background: url("../../../../../images/bg/img-base/03.jpg") no-repeat; background-size: cover;}
+.footer-bg-44 {background: url("../../../../../images/bg/img-base/04.jpg") no-repeat; background-size: cover;}
+.footer-bg-45 {background: url("../../../../../images/bg/img-base/05.jpg") no-repeat; background-size: cover;}
+.footer-bg-46 {background: url("../../../../../images/bg/img-base/06.jpg") no-repeat; background-size: cover;}
+.footer-bg-51 {background: url("../../../../../images/bg/img-base/07.jpg") no-repeat; background-size: cover;}
+.footer-bg-52 {background: url("../../../../../images/bg/img-base/08.jpg") no-repeat; background-size: cover;}
+.footer-bg-53 {background: url("../../../../../images/bg/img-base/09.jpg") no-repeat; background-size: cover;}
+.footer-bg-54 {background: url("../../../../../images/bg/img-base/10.jpg") no-repeat; background-size: cover;}
+.footer-bg-55 {background: url("../../../../../images/bg/img-base/11.jpg") no-repeat; background-size: cover;}
+.footer-bg-56 {background: url("../../../../../images/bg/img-base/12.jpg") no-repeat; background-size: cover;}
+
+
+
+
+

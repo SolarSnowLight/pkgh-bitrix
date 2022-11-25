@@ -1,0 +1,1269 @@
+@base : #3F51B5;
+@alt : #4CAF50;
+@white : #fff;
+@grey : #eeeeee;
+@black : #333333;
+@red : #da2e00;
+@green: #80BD32;
+@blue : #1F7BC6;
+@orange : #d35400;
+@yellow : #f1c40f;
+@rose : #D100D3;
+@purple : #563d7c;
+/* Related colors */
+@base-light : lighten(@base,10%);
+@base-dark : darken(@base,10%);
+@base-saturate : saturate(@base,10%);
+@base-desaturate : desaturate(@base,10%);
+@base-spin-plus : spin(@base,10);
+@base-spin-minus : spin(@base,-10);
+@alt-light : lighten(@alt,10%);
+@alt-dark : darken(@alt,10%);
+@alt-saturate : saturate(@alt,10%);
+@alt-desaturate : desaturate(@alt,10%);
+@alt-spin-plus : spin(@alt,10);
+@alt-spin-minus : spin(@alt,-10);
+@red-light : lighten(@red,20%);
+@red-dark : darken(@red,20%);
+@blue-light : lighten(@blue,20%);
+@blue-dark : darken(@blue,20%);
+@green-light : lighten(@green,10%);
+@green-dark : darken(@green,20%);
+@orange-light : lighten(@orange,10%);
+@orange-dark : darken(@orange,20%);
+@yellow-light : lighten(@yellow,10%);
+@yellow-dark : darken(@yellow,20%);
+@rose-light : lighten(@rose,10%);
+@rose-dark : darken(@rose,20%);
+@purple-light : lighten(@purple,10%);
+@purple-dark : darken(@purple,20%);
+@grey-light : lighten(@grey,5%);
+@grey-dark : darken(@grey,20%);
+@black-light : lighten(@black,20%);
+@black-dark : darken(@black,20%);
+/* Settings */
+@back-color : #fff;
+@text-color : #333;
+@border-color : @grey;
+/* Remove It Begin */
+@base3 : rgba(0,0,0,0.3);
+@base4 : rgba(0,0,0,0.1);
+@base5 : #232228;
+@base6 : rgba(0,0,0,0.56);
+@base7 : #eee !important;
+@base8 : #999;
+@base9 : #f2f2f2;
+@alt-light0 : #7f8c8d;
+@alt-light1 : #563d7c;
+@alt-light2 : #3498db;
+@alt-light3 : #8ec449;
+@alt-light4 : #f1c40f;
+@alt-light5 : #d35400;
+@alt-light6 : #f8f8f8;
+@alt-light7 : rgba(150,150,150,0.5);
+@alt-light8 : #697e93;
+@alt-light9 : #888;
+/* Remove It END */
+.c-vk{color: #41658B}
+.c-fb{color: #39579A}
+.c-tw{color: #00ABF0}
+.c-ok{color: #F4960F}
+.c-gp{color: #BE3308}
+.bg-lbase,.bg-base-light{background-color:@base-light!important}
+.bg-base{background-color:@base!important}
+.bg-dbase,.bg-base-darlk{background-color:@base-dark!important}
+.bg-lalt,.bg-alt-light{background-color:@alt-light!important}
+.bg-alt{background-color:@alt!important}
+.bg-dalt,.bg-alt-darlk{background-color:@alt-dark!important}
+.bg-white{background-color:@white!important}
+.bg-lgrey,.bg-grey-light{background-color:@grey-light!important}
+.bg-grey{background-color:@grey!important}
+.bg-dgrey,.bg-grey-darlk{background-color:@grey-dark!important}
+.bg-lblack,.bg-black-light{background-color:@black-light!important}
+.bg-black{background-color:@black!important}
+.bg-dblack,.bg-black-dark{background-color:@black-dark!important}
+.bg-lred,.bg-red-light{background-color:@red-light!important}
+.bg-red{background-color:@red!important}
+.bg-dred,.bg-red-dark{background-color:@red-dark!important}
+.bg-lgreen,.bg-green-light{background-color:@green-light!important}
+.bg-green{background-color:@green!important}
+.bg-dgreen,.bg-green-dark{background-color:@green-dark!important}
+.bg-lblue,.bg-blue-light{background-color:@blue-light!important}
+.bg-blue{background-color:@blue!important}
+.bg-dblue,.bg-blue-dark{background-color:@blue-dark!important}
+.bg-lorange,.bg-orange-light{background-color:@orange-light!important}
+.bg-orange{background-color:@orange!important}
+.bg-dorange,.bg-orange-dark{background-color:@orange-dark!important}
+.bg-lyellow,.bg-yellow-light{background-color:@yellow-light!important}
+.bg-yellow{background-color:@yellow!important}
+.bg-dyellow,.bg-yellow-dark{background-color:@yellow-dark!important}
+.bg-lrose,.bg-rose-light{background-color:@rose-light!important}
+.bg-rose{background-color:@rose!important}
+.bg-drose,.bg-rose-dark{background-color:@rose-dark!important}
+.bg-lpurple,.bg-purple-light{background-color:@purple-light!important}
+.bg-purple{background-color:@purple!important}
+.bg-dpurple,.bg-purple-dark{background-color:@purple-dark!important}
+.mp .section-title{border-bottom:1px solid @border-color}
+.mp .section-title span{border-bottom:3px solid @base}
+.catalog_menu{border:1px solid @border-color;background:@grey-light}
+.navbar-header div.title{color: @white}
+#fullmenu > ul > li > ul > li > a,.catalog_menu .nav > li > span a{color:@black}
+.catalog_menu .nav > li:last-child > span a{border-bottom:1px solid @border-color}
+.catalog_menu .nav > li > span a{border-bottom:1px solid @border-color}
+.catalog_menu .nav > li > span .showchild{background:@grey}
+.catalog_menu .nav > li > span .showchild:hover{background:@base;color:@white;border:none}
+.catalog_menu .nav > li.selected > span .showchild{background:@base-dark}
+.catalog_menu .nav > li.selected > span .showchild:hover{background:@base-light;color:@white;border:none}
+.selected .spun{color:@white!important;background:@base}
+.catalog_menu .nav > li li span a{border-bottom:1px solid @border-color}
+.catalog_menu .nav > li.current > span .showchild .arrow,.catalog_menu .nav > li.current > ul > li span .showchild .arrow{color:@white}
+.catalog_menu .selected > span a,.catalog_menu a:hover{background:@base;color:@white!important}
+.wp-block.article .video-hover-play a:before{background:fadeout(@black,60%)}
+.wp-block.article.grid .image-title{color:@white}
+.navbar-toggle:hover,.navbar-toggle:focus{color:@white}
+.top-info-menu li{color:@grey-dark}
+.icon-menu .fa-circle{color:@grey-dark}
+a.icon-menu:hover .fa-circle{color:@orange-light}
+.icon-menu span span{color:@white;background:@red}
+.badge-corner-transparent span{color:@alt-light2}
+.green a,.blue a,.black a{color:@white}
+.footer-logo{color:@white}
+.footer-logo a{color:@white}
+.form-base .input-group-addon{color:@white;background:@blue;border:1px solid @blue}
+.selected .form-control{border-color:@white}
+.selected .input-group-addon{border-color:@white}
+.selected label{border:1px solid @white}
+.tabs-link{border-bottom:1px solid @grey}
+.tabs-link li{float:left;border-right:1px solid @grey;margin-bottom:-1px}
+.tabs-link li.active{background:#fcfcfc}
+.tabs-link li a{color:@black-light}
+.tabs-link li.active a{color:@black-light;border-bottom:3px solid @blue-light}
+.wp-block.article .video-hover-play a:before{background:fadeout(@black,50%)}
+.carousel-1.live-broadcast{background-image:-webkit-gradient(linear,left top,left bottom,color-stop(0.53,@blue),color-stop(1,@blue-dark));background-image:-o-linear-gradient(bottom,@blue 53%,@blue-dark 100%);background-image:-moz-linear-gradient(bottom,@blue 53%,@blue-dark 100%);background-image:-webkit-linear-gradient(bottom,@blue 53%,@blue-dark 100%);background-image:-ms-linear-gradient(bottom,@blue 53%,@blue-dark 100%);background-image:linear-gradient(to bottom,@blue 53%,@blue-dark 100%)}
+table.detail-page-info td{border:1px solid @grey}
+.pricing-plans .plan-title a{color:@blue}
+.form-base.sky-form a{color:@white}
+.pagination>li>span{background-color:@blue;border-color:@grey;color:@white}
+.form-group .bxlhe-frame{border:1px solid @grey-dark}
+.top-block .phone i{color:@red}
+.top-block .shopping-cart > a{color:@blue}
+.top-block .shopping-cart .cart-info{background:@white;border:1px solid @grey;-webkit-box-shadow:0 6px 12px fadeout(@black,17%);-moz-box-shadow:0 6px 12px fadeout(@black,17%);box-shadow:0 6px 12px fadeout(@black,17%)}
+.top-block .shopping-cart .cart-info .cart-items{background:@white}
+.top-header .aux-text{color:@grey-dark}
+.top-header .top-header-menu > ul.menu > li{border-right:1px solid @grey}
+.top-header .top-header-menu ul.menu > li ul.sub-menu{background:@white;border:1px solid @grey;-webkit-box-shadow:0 6px 12px fadeout(@black,17%);-moz-box-shadow:0 6px 12px fadeout(@black,17%);box-shadow:0 6px 12px fadeout(@black,17%)}
+.top-header .top-header-menu ul.menu > li ul.sub-menu > li{border-bottom:1px solid @grey}
+.top-header .top-header-menu ul.menu > li ul.sub-menu > li > a{color:@black}
+.top-header .top-header-menu ul.menu > li ul.sub-menu > li >.language-active{background:@grey-light}
+.top-header .top-header-dark{border-bottom:1px solid @black;background:@black}
+.top-header .top-header-dark .aux-text{color:@white}
+.top-header .top-header-dark .top-header-menu > ul.menu > li{border-color:@black}
+.top-header .top-header-dark .top-header-menu > ul.menu > li > a{color:@white}
+.dropdown-menu h4{color:@black-light}
+.btn-b-red{background-color:transparent;border:2px solid @red-light!important;color:@black}
+.btn-red{color:@white;background-color:@red-light;border:1px solid;border-color:@orange!important}
+.bx_item_delete i{color:@black-dark}
+.catalog_menu .nav > li.selected > span a{color:@white}
+.bg-dark-60{background:fadeout(@black,60%)}
+.c-white a{color:@white!important}
+.c-white .carousel-testimonials .carousel-indicators li{background-color:@white}
+.news-detail-nav a{border-bottom:1px dashed @black}
+.news-detail-nav span{color:@grey-dark}
+.bg-body-spinner{background:fadeout(@black,60%);color:@white}
+.carousel .slider a{background:fadeout(@black,70%);color:@white}
+.carousel .change-photo img{border:2px solid @white}
+.carousel .change-photo.active img{border:2px solid @orange-light}
+.row-photogallery img,.bottom-photogallery img{border:1px solid @grey}
+table.table-striped br + .catalog-price{color:@orange-light}
+.shopping-cart.base table a{color:@black}
+.shop .product-price.detail-price>.price.discount-new{color:@red}
+.form-base .grey-form{background:@grey-light}
+.form-base .grey-form select{background:@white;color:@black-dark;border:1px solid @grey}
+.form-base .grey-form select:focus{background:@white;color:@black-dark;border:1px solid @grey}
+.wp-block.icon-square p{color:@black}
+@media (min-width:1200px) {
+.body-wrap.body-boxed{border:1px solid fadeout(@grey-dark,80%)!important}
+}
+.contact-info i{color:@base}
+.navbar-header .navbar-brand{color:@base}
+.top-block .shopping-cart > a{color:@base}
+.pagination>li>span{background-color:@base;border-color:@red-light}
+.tabs-link li.active a{border-bottom:3px solid @base}
+.sitelogo{color:@base}
+.badge-corner-transparent span{color:@base}
+.form-base .input-group-addon{background:@base;border:1px solid @base}
+.noUi-background{background:@base}
+.noUi-connect{background:@alt}
+.noUi-handle{background:@base}
+.noUi-active{box-shadow:inset 0 0 1px @white,inset 0 1px 7px @grey,0 3px 6px -3px @grey-dark}
+[disabled].noUi-connect,[disabled] .noUi-connect{background:@grey-dark}
+a{color:@base}
+a:hover, a:focus{color:@base}
+hr{border-color:@border-color}
+hr.delimiter{background-image:-webkit-linear-gradient(left,transparent,fadeout(@black,20%),transparent);background-image:linear-gradient(to right,transparent,fadeout(@black,20%),transparent)}
+.light h1,.light h2,.light h3,.light h4,.light h5,.light h6{color:@text-color!important}
+.dark h1,.dark h2,.dark h3,.dark h4,.dark h5,.dark h6{color:@back-color!important}
+.light-gray h1,.light-gray h2,.light-gray h3,.light-gray h4,.light-gray h5,.light-gray h6{color:@black-dark}
+.base h1,.base>h2,.base h3,.base h4,.base h5,.base h6{color:@back-color}
+.base-alt h1,.base-alt h2,.base-alt h3,.base-alt h4,.base-alt h5,.base-alt h6{color:@back-color!important}
+.c-base{color:@base}
+.c-alt{color:@alt}
+.c-light{color:@grey-light}
+.c-dark{color:@black-dark}
+.c-white{color:@back-color!important}
+.c-gray{color:@text-color!important}
+.c-black{color:@black-dark!important}
+.c-red{color:@red}
+.light{background:@grey-light;color:@text-color}
+.light a,.light i{color:@text-color}
+.light-gray{background:@grey-light;color:@black-dark}
+.light-gray a,.light-gray>i{color:@black-dark}
+.dark{background:@black-dark;color:@back-color}
+.dark a,.dark i{color:@back-color}
+.white{background:@back-color;color:@text-color!important}
+.white a,.white i{color:@text-color}
+.base{background:@base;color:@back-color!important}
+.base-alt{background:@alt;color:@back-color}
+.base-alt a,.base-alt i{color:@back-color}
+.alpha{background:fadeout(@white,20%)}
+.red{background:@base;color:@back-color}
+.red a,.red i{color:@back-color}
+.yellow{background:@yellow-light;color:@back-color}
+.yellow a,.yellow i{color:@back-color}
+.orange{background:@orange-light;color:@back-color}
+.orange a,.orange i{color:@back-color}
+.green{background:@green;color:@back-color}
+.blue{background:@blue;color:@back-color}
+.purple{background:@purple;color:@back-color}
+.black{background:@black-dark;color:@back-color}
+.gray{background:@grey-light;color:@grey-light}
+.dark-cyan{background:@green-light;color:@back-color}
+.forest-green{background:@green-light;color:@back-color}
+.bg-header{background:@back-color}
+.bg-white{background:@back-color!important}
+.bg-base{background:@base;color:@back-color;background:@base;color:@back-color}
+.bg-base-alt{background:@alt;color:@alt-light}
+.bg-white{background:@back-color;color:@text-color}
+.bg-white-alt{background:@grey-light;color:@text-color}
+.bg-dark{background:@black-dark;color:@base}
+.bg-dark-alt{background:@black-light;color:@base}
+.bg-gray-alt{background:@grey;color:@grey-light}
+.ba{border:1px solid @border-color}
+.bt{border-top:1px solid @border-color}
+.br{border-right:1px solid @border-color}
+.bb{border-bottom:1px solid @border-color}
+.bl{border-left:1px solid @border-color}
+.title{color:@text-color}
+.title-xs{color:@text-color}
+.title-sm{color:@text-color}
+.title-md{color:@text-color}
+.title-lg{color:@text-color}
+.bg-banner-1{background:url(../images/prv/banner-img-4.jpg) fixed no-repeat!important;color:@back-color}
+.bg-banner-2{background:url(../images/prv/banner-img-1.jpg) no-repeat fixed!important;color:@back-color}
+.mask.mask-1{background:url(../images/patterns/slash-it.png)}
+.mask.mask-2{background:url(../images/patterns/dark-exa.png)}
+.inset-shadow-1{-webkit-box-shadow:inset 0 10px 8px -10px @base3;-moz-box-shadow:inset 0 10px 8px -10px @base3;box-shadow:inset 0 10px 10px -8px @base4}
+.inset-shadow-2{-webkit-box-shadow:inset 0 0 50px 0 @base5;-moz-box-shadow:inset 0 0 50px 0 @base5;box-shadow:inset 0 0 50px 0 @base5}
+.inset-shadow-3{-webkit-box-shadow:inset 33px 0 42px -40px @base6;-moz-box-shadow:inset 33px 0 42px -40px @base6;box-shadow:inset 33px 0 42px -40px @base6}
+.inset-shadow-4{-webkit-box-shadow:inset 0 0 50px 0 @base5;-moz-box-shadow:inset 0 0 50px 0 @base5;box-shadow:inset 0 0 50px 0 @base5}
+.header-alpha .navbar-wp .navbar-inner{border-color:@grey-light!important}
+.header-alpha .top-header{border-color:@grey-light!important}
+.top-header{border-bottom:1px solid @border-color;background:@back-color}
+.top-header .aux-text{color:@base8}
+.top-header .top-header-menu>ul.top-menu>li{border-right:1px solid @base9}
+.top-header .top-header-menu>ul.top-menu>li>a{color:@text-color}
+.top-header .top-header-menu ul.top-menu>li ul.sub-menu{background:@back-color;-webkit-box-shadow:0 6px 12px fadeout(@black,17%);-moz-box-shadow:0 6px 12px fadeout(@black,17%);box-shadow:0 6px 12px fadeout(@black,17%)}
+.top-header .top-header-menu ul.top-menu>li ul.sub-menu>li{border-bottom:1px solid @border-color}
+.top-header .top-header-menu ul.top-menu>li ul.sub-menu>li>a{color:@text-color}
+.top-header .top-header-menu ul.top-menu>li ul.sub-menu>li>a:hover{background:@base;color:@back-color}
+.top-header .top-header-menu ul.top-menu>li ul.sub-menu>li>.language-active{background:@base9;color:@text-color}
+.top-header.top-header-dark{border-bottom:1px solid @black;background:@black-dark}
+.top-header.top-header-dark .aux-text{color:@back-color}
+.top-header.top-header-dark .top-header-menu>ul.top-menu>li{border-color:@black}
+.top-header.top-header-dark .top-header-menu>ul.top-menu>li>a{color:@back-color}
+.top-navbar-header{background:@back-color;border-bottom:1px solid @border-color}
+.top-navbar-header .top-nav-links a{color:@base8}
+.top-navbar-header .top-nav-links a:hover{color:@base}
+.navbar-wp{background:@back-color;border-bottom:1px solid @border-color}
+.navbar-wp .navbar-nav>li>a{color:@text-color}
+.navbar-wp .navbar-nav>li>a.dropdown-form-toggle{color:@text-color}
+.navbar-wp .navbar-nav>li>a:hover,.navbar-wp .navbar-nav>li>a:focus{color:@back-color;background-color:@base;border-top:3px solid @base}
+.navbar-wp .navbar-nav li.divider{background:@back-color;color:@text-color}
+.navbar-base{background:@base;border-bottom:1px solid @base}
+.navbar-base .navbar-nav>li>a{color:@back-color}
+.navbar-shadow{-webkit-box-shadow:0 4px 15px fadeout(@black,7%);-moz-box-shadow:0 4px 15px fadeout(@black,7%);box-shadow:0 4px 15px fadeout(@black,7%)}
+.header-standard-1{background:@back-color}
+.header-standard-1 .navbar-wp{border-bottom:1px solid @border-color}
+.header-standard-1 .navbar-wp .navbar-nav>li>a{color:@text-color;background-color:@back-color}
+.navbar-wp .navbar-nav>.active>a,.navbar-wp .navbar-nav>.active>a:hover,.navbar-wp .navbar-nav>.active>a:focus{color:@back-color!important;background-color:@base}
+.navbar-wp .navbar-nav>.disabled>a,.navbar-wp .navbar-nav>.disabled>a:hover,.navbar-wp .navbar-nav>.disabled>a:focus{color:@grey-light}
+.navbar-wp .navbar-nav>.open>a,.navbar-wp .navbar-nav>.open>a:hover,.navbar-wp .navbar-nav>.open>a:focus{color:@back-color;background-color:@base;border-color:@base}
+.navbar-base .navbar-nav>.open>a,.navbar-base .navbar-nav>.open>a:hover,.navbar-base .navbar-nav>.open>a:focus{color:@back-color!important}
+.navbar-wp .navbar-nav>.open>a .caret,.navbar-wp .navbar-nav>.open>a:hover .caret,.navbar-wp .navbar-nav>.open>a:focus .caret{border-top-color:@back-color;border-bottom-color:@back-color}
+.navbar-wp .navbar-nav>.dropdown>a .caret{border-top-color:@black-light;border-bottom-color:@black-light}
+.navbar-wp .navbar-nav>li>a.dropdown-form-toggle,.navbar-wp .navbar-nav>li>a.dropdown-form-toggle:hover,.navbar-wp .navbar-nav>li>a.dropdown-form-toggle:focus{color:@text-color}
+.navbar-wp.navbar-base .navbar-nav>li>a.dropdown-form-toggle,.navbar-wp.navbar-base .navbar-nav>li>a.dropdown-form-toggle:hover,.navbar-wp.navbar-base .navbar-nav>li>a.dropdown-form-toggle:focus{color:@back-color!important}
+.navbar-wp .navbar-nav>.open>a.dropdown-form-toggle,.navbar-wp .navbar-nav>.open>a.dropdown-form-toggle:hover,.navbar-wp .navbar-nav>.open>a.dropdown-form-toggle:focus{color:@text-color!important}
+.navbar-toggle .icon-bar{background-color:@text-color}
+.navbar-toggle:hover,.navbar-toggle:focus{background-color:@base;border-color:@base}
+.navbar-toggle:hover .icon-bar,.navbar-toggle:focus .icon-bar{background-color:@back-color}
+.navbar-toggle:hover .icon-custom,.navbar-toggle:focus .icon-custom{color:@back-color}
+.navbar-toggle{border-color:@text-color;color:@text-color}
+.navbar-base .navbar-toggle .icon-bar{background-color:@back-color}
+.navbar-base .navbar-toggle:hover,.navbar-base .navbar-toggle:focus{background-color:@back-color;border-color:@back-color}
+.navbar-base .navbar-toggle:hover .icon-bar,.navbar-base .navbar-toggle:focus .icon-bar{background-color:@back-color}
+.navbar-base .navbar-toggle:hover .icon-custom,.navbar-base .navbar-toggle:focus .icon-custom{color:@black-dark}
+.navbar-base .navbar-toggle{border-color:@back-color;color:@back-color}
+.navbar-wp .navbar-collapse,.navbar-wp .navbar-form{border-color:@grey}
+.navbar-wp .navbar-nav>.dropdown>a:hover .caret,.navbar-wp .navbar-nav>.dropdown>a:focus .caret{border-top-color:@back-color;border-bottom-color:@back-color}
+.navbar-wp .dropdown-menu{background:@back-color;border-top:1px solid @border-color;border-bottom:3px solid @border-color}
+.navbar-wp .dropdown-menu>li{border-bottom:1px solid @border-color}
+.navbar-wp .dropdown-menu>li>a{color:@text-color}
+.navbar-wp .dropdown-menu>li>a:hover{background:@base;color:@back-color}
+.navbar-wp .dropdown-menu label.checkbox{color:@text-color}
+.navbar-wp .navbar-right .social-link.facebook:hover{background:@blue-dark;color:@back-color}
+.navbar-wp .navbar-right .social-link.pinterest:hover{background:@red;color:@back-color}
+.navbar-wp .navbar-right .social-link.twitter:hover{background:@blue-light;color:@back-color}
+.mega-nav .br{border-color:@border-color}
+.navbar-wp .dropdown-menu .mega-nav-section-title{color:@text-color}
+.navbar-wp .dropdown-menu ul.mega-nav-ul li a{color:@text-color}
+.navbar-wp .dropdown-menu ul.mega-nav-ul.arrow-li li a:before{color:@text-color}
+.navbar-wp .dropdown-menu ul.mega-nav-ul.arrow-li li a:hover{color:@base}
+.navbar-wp.affix{background:@back-color;border-bottom:1px solid @border-color}
+.navbar-base.affix{background:@base;border-color:@base}
+.navbar-wp .navbar-nav>li>a.dropdown-form-toggle{color:@text-color}
+.navbar-wp .navbar-nav>li>a:hover,.navbar-wp .navbar-nav>li>a:focus{color:@back-color;background-color:@base}
+.navbar-base .navbar-nav>li>a.dropdown-form-toggle{color:@back-color}
+.navbar .social-item .facebook{background:@blue-dark;color:@back-color!important}
+.navbar .social-item .twitter{background:@blue-light;color:@back-color!important}
+.navbar .social-item .google{background:@back-color;color:@orange!important}
+.navbar .social-item .youtube{background:@orange;color:@back-color!important}
+.navbar .social-item .pinterest{background:@red;color:@back-color!important}
+.dropdown-submenu:hover>a:after{border-left-color:@back-color}
+.nav>ul>li{border-bottom:1px solid @text-color}
+.nav>ul>li>a{color:@back-color}
+.nav>ul>li>a:hover{color:@base;background:@black}
+.pg-opt{border-bottom:1px solid @border-color;background:@white;color:@text-color}
+.pg-opt h2{color:@text-color}
+.pg-opt .breadcrumb a{color:@text-color}
+.pg-opt .breadcrumb a:hover{color:@base}
+.pg-opt .breadcrumb li.active{color:@text-color}
+.wp-block .caption-bottom{background:fadeout(@red,80%)}
+.wp-block.inverse .thmb-img i{background:@base;color:@back-color!important}
+.wp-block.inverse .thmb-img:hover i{border-color:@base;color:@base!important}
+.wp-block.inverse h2,.wp-block.inverse .title{color:@text-color}
+.wp-block.default{border:1px solid @border-color;background:@back-color}
+.wp-block.default>.wp-block-body .title{color:@text-color!important}
+.wp-block.default>.wp-block-footer{background:@back-color}
+.wp-block.default:hover>.wp-block-footer{background:@back-color}
+.wp-block-date-over{background:@back-color;color:@text-color}
+.wp-block-date-over.alpha{background:fadeout(@white,70%)}
+.wp-block-info-over{background:@back-color}
+.wp-block-info-over h3 a{color:@back-color}
+.wp-block-info-over h3 small{color:@back-color}
+.wp-block-info-over{background:@alt;border-top:1px solid @border-color}
+.wp-block-info-over.left h2 a{background:fadeout(@black,80%);background:@black;color:@back-color}
+.wp-block-info-over.left h3 a{color:@back-color}
+.wp-block-info-over.left h3 small{color:@back-color}
+.wp-block.bordered .wp-block-body{border:1px solid @border-color}
+.wp-block.white{border:1px solid @border-color}
+.wp-block.white .title{color:@text-color}
+.wp-block.white .subtitle{color:@text-color}
+.wp-block.white p{color:@alt-light}
+.wp-block.white h2{color:@text-color}
+.wp-block.white .thmb-img i{color:@alt-light}
+.wp-block.hero .thmb-img i{color:@back-color}
+.wp-block.white p{color:@text-color}
+.wp-block.white h2{color:@text-color!important}
+.wp-block.white .thmb-img i{color:@text-color}
+.wp-block.light p{color:@text-color}
+.wp-block.light h2{color:@text-color}
+.wp-block.light .thmb-img i{color:@text-color}
+.wp-block.dark p{color:@grey}
+.wp-block.dark h2{color:@back-color}
+.wp-block.dark .thmb-img i{color:@back-color}
+.wp-block.base-alt p{color:@back-color}
+.wp-block.base-alt h2{color:@back-color}
+.wp-block.base-alt .thmb-img i{color:@back-color}
+.wp-block.base p{color:@back-color}
+.wp-block.base h2{color:@back-color!important}
+.wp-block.base .thmb-img i{color:@back-color!important}
+.wp-block.no-space.arrow-right.white:after{border-left-color:@back-color}
+.wp-block.no-space.arrow-right.dark:after{border-left-color:@black-dark}
+.wp-block.no-space.arrow-right.light:after{border-left-color:@grey-light}
+.wp-block.no-space.arrow-right.base:after{border-left-color:@base}
+.wp-block.no-space.arrow-right.base-alt:after{border-left-color:@alt}
+.wp-block.icon-square .img-icon-wrapper{background:@yellow-light;background:@base}
+.wp-block.icon-square.arrow-down .img-icon-wrapper:after{border-top-color:@base}
+.wp-block.icon-square h1{color:@text-color}
+.wp-block.icon-square p{color:@alt-light}
+.wp-block.thumbnail{border:1px solid @border-color}
+.wp-block.image-holder .wp-block-info{background:@base}
+.wp-block.image-holder .wp-block-info.over{background:@back-color;background:fadeout(@white,60%)}
+.wp-block.image-holder .wp-block-info.over .info-title{color:@text-color}
+.wp-block.product{background:@back-color}
+.wp-block.product .product-title a{color:@text-color}
+.wp-block.product p{color:@alt-light}
+.wp-block.product .price{color:@text-color}
+.wp-block.product .price.discount{color:@red}
+.wp-block.product.style-2 .wp-block-footer{border-top:1px solid @border-color}
+.wp-block.product.style-2 .wp-block-footer .cell{border-right:1px solid @border-color}
+.wp-block.product.style-2 .wp-block-footer .cell:hover{background:@base}
+.wp-block.product.style-2 .wp-block-footer .cell:hover a,.wp-block.product.style-2 .wp-block-footer .cell:hover a i{color:@back-color!important}
+.wp-block.product.style-2 .wp-block-footer .price{color:@text-color}
+.wp-block.product.style-2 .wp-block-footer .discount{color:@red}
+.wp-block.testimonial.style-2 .wp-block-body.base:after{border-top-color:@base}
+.wp-block.testimonial.style-2 .wp-block-body.base-alt:after{border-top-color:@alt}
+.wp-block.testimonial.style-2 .wp-block-body.light:after{border-top-color:@grey-light}
+.wp-block.testimonial.style-2 .wp-block-body.dark:after{border-top-color:@black-dark}
+.wp-block.testimonial.style-2 .testimonial-author .author-info .author-name{color:@text-color}
+.wp-block.property.list{border:1px solid @border-color}
+.wp-block.property.list .wp-block-content .content-title{color:@base}
+.wp-block.property.list .wp-block-content .description{border-bottom:1px solid @border-color}
+.wp-block.property.list .wp-block-content .price{color:@alt}
+.wp-block.property.list .wp-block-content .period{color:@base8}
+.wp-block.property.list .wp-block-content .capacity{color:@base8}
+.wp-block.property.list .wp-block-footer ul.aux-info{background:@white;border-top:1px solid @border-color}
+.wp-block.property.list .wp-block-footer ul.aux-info li{border-right:1px solid @border-color}
+.wp-block.property.list .wp-block-footer ul.aux-info li i{color:@text-color}
+.wp-block.property.list .wp-block-footer.style2 ul.aux-info{border:1px solid @border-color}
+.wp-block.property.grid{border:1px solid @border-color}
+.wp-block.property.grid .wp-block-body .wp-block-content .content-title{color:@base}
+.wp-block.property.grid .wp-block-body .wp-block-content .description{border-bottom:1px solid @border-color}
+.wp-block.property.grid .wp-block-body .wp-block-content .price{color:@alt}
+.wp-block.property.grid .wp-block-body .wp-block-content .period{color:@base8}
+.wp-block.property.grid .wp-block-body .wp-block-content .capacity{color:@base8}
+.wp-block.property.grid .wp-block-footer ul.aux-info{background:@white;border-top:1px solid @border-color}
+.wp-block.property.grid .wp-block-footer ul.aux-info li{border-right:1px solid @border-color}
+.wp-block.property.grid .wp-block-footer ul.aux-info li i{color:@text-color}
+.wp-block.article .title{color:@text-color}
+.wp-block.article .video-title{color:@text-color}
+.wp-block.article .meta-tags a{color:@base}
+.wp-block.article .video-hover-play a{background:@black-dark}
+.wp-block.article .video-hover-play a:hover{background:@black-dark}
+.wp-block.article .video-hover-play a:before{color:@back-color;background:@black-dark}
+.wp-block.article .video-hover-play a:hover:before{color:@back-color;background:@base}
+.wp-block.article.grid .article-category{color:@base}
+.wp-block.article.list .article-info{color:@base8}
+.wp-block.article.list .article-category{color:@base}
+.wp-block.article.post .article-title{color:@text-color}
+.wp-block.article.post .meta-info span strong{color:@text-color}
+.panel-sidebar-1 h4{color:@base}
+.panel-sidebar-1 .panel-body ul.list-group{border-bottom:1px solid @border-color}
+.panel-base{background:@base}
+.panel-base .panel-heading{background:@base;color:@back-color;border-bottom:1px solid @base-dark}
+.panel-base .form-base label{color:@back-color}
+.icon-block.icon-block-1 .icon-block-item{color:@text-color}
+.icon-block.icon-block-1 .icon-block-body .title{color:@text-color}
+.icon-block.icon-block-2 .icon-block-body .title{color:@text-color}
+.icon-block.icon-block-3 .icon-block-item{color:@text-color}
+.icon-block.icon-block-3 .icon-block-body .title{color:@text-color}
+.caption.alpha{background-color:@black-dark;background-color:fadeout(@black,80%)}
+.caption.icon{background-image:url(images/camera.png)}
+.caption.copyright{color:@back-color;text-shadow:0 1px 0 fadeout(@black,50%)}
+.caption.copyright span{background:@base3}
+.aside-feature:hover .icon-feature,.wp-section .aside-feature:hover h4{color:@base}
+.aside-feature.square .icon-feature{background:@base;color:@back-color}
+.aside-feature.square .icon-feature i{color:@back-color}
+.aside-feature.square:hover .icon-feature{background:@back-color;border:2px solid @base;color:@base}
+.aside-feature.square .outer-title{border-bottom:1px dashed @border-color}
+.short-feature .feature-icon{background:@base;color:@back-color}
+.short-feature .feature-txt h3{color:@text-color}
+.short-feature .feature-txt p{color:@alt-light}
+.dropdown-cart{background:@back-color;color:@text-color}
+.dropdown-cart .table>thead>tr>th{border-color:@border-color}
+.dropdown-cart .dropdown-cart-body{background:@back-color}
+.dropdown-cart .dropdown-cart-footer{background:@white;border-top:1px solid @grey}
+.dropdown-cart .cart-items{background:@white;color:@black-dark;border-bottom:1px solid @grey}
+.dropdown-menu h4{color:@black-light}
+.aside-menu.left{background:@black;border-right:1px solid @text-color}
+.aside-menu.right{background:@black;border-left:1px solid @text-color}
+.slidebar-toggle{background:fadeout(@black,55%);color:@back-color}
+.aside-menu .form-search{border-bottom:1px solid @text-color}
+.aside-menu .form-search .form-control{color:@back-color}
+.aside-menu .form-search .btn-close{color:@back-color}
+.aside-menu .contact-info{color:@back-color}
+.side-section-title{color:@alt-light}
+.side-section-title:after{background:@text-color}
+.style-switcher-slidebar .switch-panel{background:@back-color;color:@text-color;box-shadow:1px 1px 3px @base3}
+.style-switcher-slidebar .switch-panel::-webkit-scrollbar-track{background-color:@grey-dark}
+.style-switcher-slidebar .switch-panel::-webkit-scrollbar-thumb{background-color:@grey-dark}
+.style-switcher-slidebar .switch-panel::-webkit-scrollbar-thumb:hover{background-color:@alt-light0}
+a.open-panel{color:@back-color!important;background-color:@base}
+a.open-panel:hover{color:@back-color}
+.style-switcher-slidebar h3{background:@base;color:@back-color}
+.color-switch a:hover,.color-switch a.active{border:2px solid @base;box-shadow:2px 2px 0 @text-color}
+.color-switch a.color-red{background:#da2e00}
+.color-switch a.color-violet{background:@alt-light1}
+.color-switch a.color-blue{background:@alt-light2}
+.color-switch a.color-green{background:@alt-light3}
+.color-switch a.color-yellow{background:@alt-light4}
+.color-switch a.color-orange{background:@alt-light5}
+.color-switch a.color-bw{background:url(../images/temp/bw.jpg) no-repeat}
+.color-switch a.color-dark{background:url(../images/temp/dark.jpg) no-repeat}
+.color-switch a.color-flat{background:url(../images/temp/flat.jpg) no-repeat}
+.color-switch a.color-special{background:url(../images/temp/special.jpg) no-repeat}
+.carousel-1 .carousel-control{color:@alt-light6}
+.carousel-1 .carousel-control:hover{color:@back-color}
+.carousel-1 .item-dark{color:@back-color}
+.carousel-1 .item-light{color:@back-color}
+.carousel-1 .description .title{background:@back-color;color:@alt-light}
+.carousel-1 .description p{color:@back-color}
+.carousel-1 .description-left p{color:@back-color}
+.carousel-1 .description.fluid-center .title{color:@back-color;text-shadow:1px 1px 3px @alt-light7}
+.carousel-1 .description.fluid-center .features i{background:@back-color;color:@alt-light8}
+.carousel-1 .caption-bottom{background:fadeout(@red,80%)}
+.carousel-1 .text-shadow{text-shadow:2px 2px 2px @alt-light9}
+.simple-slider{background:@grey-light}
+section.slice.arrow-bottom:after{border-color:@blue-light}
+section.slice.arrow-bottom.base:after{border-top-color:@base}
+section.slice.arrow-bottom.light:after{border-top-color:@grey-light}
+section.slice.arrow-bottom.light-gray:after{border-top-color:@white}
+section.slice.arrow-bottom.dark:after{border-top-color:@black-dark}
+section.slice.arrow-bottom.base-alt:after{border-top-color:@alt}
+.container.bordered{border:1px solid @grey}
+.pre-scrollable{border-color:#eee;}
+.pre-scrollable::-webkit-scrollbar-track{background-color:@grey-dark}
+.pre-scrollable::-webkit-scrollbar-thumb{background-color:@grey-dark}
+.pre-scrollable::-webkit-scrollbar-thumb:hover{background-color:@alt-light0}
+.shop .product-short-info p i{color:@base}
+.shop .primary-image{border:1px solid @border-color}
+.shop .thumbnail-images a{border:1px solid @border-color}
+.product-info .product-title{color:@text-color}
+.shop .product-price{color:@text-color}
+.shop .product-price>.price.discount{color:@red}
+.table-cart{border-right:1px solid @border-color;border-left:1px solid @border-color;border-bottom:1px solid @border-color}
+.table>thead>tr>th,.table>tbody>tr>th,.table>tfoot>tr>th,.table>thead>tr>td,.table>tbody>tr>td,.table>tfoot>tr>td{border-color:@border-color}
+.table-cart td:first-child{border-right:1px solid @border-color}
+.table-cart .cart-remove{color:@red}
+.table-dropdown-cart>thead>tr>th{border-color:@border-color}
+.table-dropdown-cart>tbody>tr>td{border-color:@border-color}
+.table-dropdown-cart>tbody>tr>td:first-child{border-right:1px solid @border-color}
+.table-orders th{background:@white}
+.estate .primary-image{border:1px solid @border-color}
+.estate .thumbnail-images a{border:1px solid @border-color}
+.estate .product-price>.price.discount{color:@red}
+.animate-hover-slide .figure .figcaption-txt .title{color:@back-color}
+.animate-hover-slide .figure .figcaption-txt .subtitle{color:@back-color}
+.animate-hover-slide .figure .figcaption h3{border-bottom:1px solid @base9}
+.animate-hover-slide-2 .figure .figcaption{background:@grey;color:@black-dark!important}
+.animate-hover-slide-2 .figure .figcaption a{color:@black-dark}
+.animate-hover-slide-3 .figure .figcaption{background:@grey;color:@black-dark!important}
+.animate-hover-slide-3 .figure .figcaption a{color:@black-dark!important}
+.animate-hover-slide-4 .figure .figcaption-txt .title{color:@back-color}
+.animate-hover-slide-4 .figure .figcaption-txt .subtitle{color:@back-color}
+.animate-hover-slide-4 .figure .figcaption h3{border-bottom:1px solid @base9}
+.pricing-plans .plan-header .popular-tag{border-bottom:1px solid @back-color}
+.pricing-plans ul li{border-bottom:1px solid @border-color}
+.pricing-plans .plan-select{border-top:1px solid @grey}
+.pricing-plans .plan-circle.base:after{background:@base}
+.pricing-plans .plan-circle.light:after{background:@grey-light}
+.pricing-plans .plan-circle.dark:after{background:@black-dark}
+.pricing-plans-2 .plan-price{border-bottom:1px solid @border-color}
+.pricing-plans-2 .plan-price .price-interval{color:@base8}
+.pricing-plans-2 ul li{border-bottom:1px solid @border-color}
+.pricing-plans-2 ul li:last-child{border-bottom:1px solid @border-color}
+.promos.base .promo{background:@base}
+.promos.light .promo{background:@grey-light}
+.promos.dark .promo{background:@black-dark}
+.promos.base .promo h4{color:@back-color}
+.promos.light .promo h4{color:@black}
+.promos.dark .promo h4{color:@back-color}
+.promo .brief{color:@back-color}
+.promos.light .promo .brief{color:@black}
+.promos.base .promo .features{color:@back-color}
+.promos.light .promo .features{color:@black}
+.promos.dark .promo .features{color:@back-color}
+.promos.base .promo .price{background:@red;color:@back-color}
+.promos.light .promo .price{background:@grey-dark;color:@black}
+.promos.dark .promo .price{background:@black-dark;color:@back-color}
+.pricing-plans .wp-block:hover,.pricing-table .wp-block:hover{-webkit-box-shadow:0 -4px 14px fadeout(@black,20%);-moz-box-shadow:0 -4px 14px fadeout(@black,20%);box-shadow:0 -4px 14px fadeout(@black,20%)}
+.pricing-table .wp-block.popular,.pricing-plans .wp-block.popular{border:1px solid @border-color;-webkit-box-shadow:0 -4px 14px fadeout(@black,20%);-moz-box-shadow:0 -4px 14px fadeout(@black,20%);box-shadow:0 -4px 14px fadeout(@black,20%)}
+.pricing-table .wp-box.popular:hover,.pricing-plans .wp-block.popular:hover{-webkit-box-shadow:0 -4px 14px @base3;-moz-box-shadow:0 -4px 14px @base3;box-shadow:0 -4px 14px @base3}
+.pricing-table .plan-select{border-bottom:1px solid @border-color}
+.pricing-table .table-comparision{background:@back-color;border-color:@grey;color:@grey-dark}
+.pricing-table .table-comparision th{border-color:@grey}
+.pricing-table .table-comparision td{border-color:@grey}
+.attr-col ul{background:@white;border:1px solid @border-color}
+.attr-col ul li{border-bottom:1px solid @border-color}
+.pt-rows li{background:@back-color;border-left:1px solid @border-color;border-right:1px solid @border-color;border-bottom:1px solid @border-color}
+.pt-rows li span{border-right:1px solid @grey}
+.pt-rows li.title{background:@black-dark;color:@back-color}
+.pt-rows li.fees{border-bottom:1px solid @border-color}
+.pt-rows li.fees span{background:@white;color:@blue-dark;text-shadow:2px 2px @back-color}
+.pt-rows li span.pt-yes{background:url(yes-no.gif) no-repeat center 12px}
+.pt-rows li span.pt-no{background:url(yes-no.gif) no-repeat center -38px}
+.pt-rows li.fin{border-bottom:1px solid @border-color}
+.pt-special .pt-rows{background:@white;-moz-box-shadow:0 0 10px @base4;-webkit-box-shadow:0 0 10px fadeout(@black,20%);box-shadow:0 0 10px fadeout(@black,20%)}
+.pt-special .pt-rows li.title{background:@blue-light;color:@blue-dark;border-bottom:1px solid @blue-light;text-shadow:2px 2px @grey}
+.pt-special .pt-rows li.fees{border-bottom:1px solid @blue-light}
+.pt-special .pt-rows li.fees span{background:@grey-light}
+.pt-special .pt-rows li.fin .big-button{background:@blue}
+.pt-special .pt-rows li.fin .big-button:hover{background:@blue-light}
+.pagination-delimiter{border-top:1px solid @border-color}
+.vertical-info h4{color:@text-color}
+.vertical-info p.delimiter{border-bottom:1px solid @border-color}
+#ulSorList .mix .item{background:@base9}
+.map-canvas .info-window-content p{color:@base8}
+.comments-wr .comment{border-bottom:1px solid @grey-light}
+.comments-wr .comment .comment{border-top:1px solid @grey-light}
+.comments-wr .comment p{color:@grey-dark}
+.boxed{background:@back-color;border:1px solid @border-color}
+.boxed-blue{background:@blue-dark}
+.boxed-dark{background:@black}
+.boxed-light{background:@grey}
+.boxed.red-line{border-top:4px solid @red}
+.boxed.green-line{border-top:4px solid @green-light}
+.boxed.blue-line{border-top:4px solid @blue}
+.widget-container{border:1px solid @border-color}
+.widget-recent-stories{background:@grey}
+.widget-recent li{border-bottom:1px solid @border-color}
+.widget-recent-stories li:nth-child(odd){background:@blue-light}
+.widget-recent-comments li:nth-child(odd){background:@white}
+.widget-recent .comment-author{color:@base}
+.widget-recent .post-desc,.widget-recent .comment-entry{color:@alt-light}
+.jumbotron{background:@grey-light}
+.jumbotron-left{-webkit-box-shadow:5px 0 5px fadeout(@black,20%);box-shadow:5px 0 5px fadeout(@black,20%)}
+ul.popular li{border-bottom:1px dotted @grey}
+ul.popular li i{color:@grey-dark}
+ul.popular li a:hover{color:@alt-light}
+ul.thumb-list li{border-bottom:1px dotted @border-color}
+ul.thumb-list li i{color:@grey-dark}
+ul.thumb-list li a:hover{color:@alt-light}
+ul.featured li{border-bottom:1px dotted @border-color}
+ul.featured li .price{color:@text-color}
+ul.featured li .price.discount{color:@base8}
+ul.featured-vertical li .price{color:@alt}
+ul.featured-vertical li .period{color:@base8}
+ul.featured-vertical li .capacity i{color:@base8}
+ul.recent li{border-bottom:1px dotted @grey-light}
+ul.recent li a:hover{border-color:@green}
+ul.recent li h6 a{color:@black}
+ul.meta-list li{color:@grey-dark}
+ul.meta-list li a{color:@blue}
+ul.meta-list li a:hover{color:@orange-light}
+ul.bullet li>figure{color:@back-color}
+ul.bullet li a:hover{color:@alt-light}
+ul.list-carousel li a:hover{color:@grey-dark}
+ul.social-icons li:hover a{color:@back-color!important}
+ul.social-icons li.facebook:hover{background:@blue-dark;color:@back-color!important}
+ul.social-icons li.twitter:hover{background:@black-light;color:@back-color!important}
+ul.social-icons li.linkedin:hover{background:@blue;color:@back-color!important}
+dl.dl-group dt{color:@black}
+ul.list-listings.blog-list .list-item-info{color:@base8}
+ul.list-listings.blog-list .list-item-info a{color:@base}
+.blog-post h2{color:@black-light}
+.blog-post p{color:@grey-dark}
+.post-tags{color:@base8}
+ul.popular li{border-bottom:1px dotted @grey}
+ul.popular li i{color:@grey-dark}
+ul.popular li a:hover{color:@alt-light}
+ul.thumb-list li{border-bottom:1px dotted @border-color}
+ul.thumb-list li i{color:@grey-dark}
+ul.thumb-list li a:hover{color:@alt-light}
+ul.featured li{border-bottom:1px dotted @border-color}
+ul.featured li .price{color:@text-color}
+ul.featured li .price.discount{color:@base8}
+ul.featured-vertical li .price{color:@alt}
+ul.featured-vertical li .period{color:@base8}
+ul.featured-vertical li .capacity i{color:@base8}
+ul.recent li{border-bottom:1px dotted @grey-light}
+ul.recent li a:hover{border-color:@green}
+ul.recent li h6 a{color:@black}
+ul.meta-list li{color:@grey-dark}
+ul.meta-list li a{color:@blue}
+ul.meta-list li a:hover{color:@orange-light}
+ul.bullet li>figure{color:@back-color}
+ul.bullet li a:hover{color:@alt-light}
+ul.list-carousel li a:hover{color:@grey-dark}
+ul.social-icons li:hover a{color:@back-color!important}
+ul.social-icons li.facebook:hover{background:@blue-dark;color:@back-color!important}
+ul.social-icons li.twitter:hover{background:@black-light;color:@back-color!important}
+ul.social-icons li.linkedin:hover{background:@blue;color:@back-color!important}
+dl.dl-group dt{color:@black}
+ul.list-listings.blog-list .list-item-info{color:@base8}
+ul.list-listings.blog-list .list-item-info a{color:@base}
+.blog-post h2{color:@black-light}
+.blog-post p{color:@grey-dark}
+.post-tags{color:@base8}
+ul.popular li{border-bottom:1px dotted @grey}
+ul.popular li i{color:@grey-dark}
+ul.popular li a:hover{color:@alt-light}
+ul.thumb-list li{border-bottom:1px dotted @border-color}
+ul.thumb-list li i{color:@grey-dark}
+ul.thumb-list li a:hover{color:@alt-light}
+ul.featured li{border-bottom:1px dotted @border-color}
+ul.featured li .price{color:@text-color}
+ul.featured li .price.discount{color:@base8}
+ul.featured-vertical li .price{color:@alt}
+ul.featured-vertical li .period{color:@base8}
+ul.featured-vertical li .capacity i{color:@base8}
+ul.recent li{border-bottom:1px dotted @grey-light}
+ul.recent li a:hover{border-color:@green}
+ul.recent li h6 a{color:@black}
+ul.meta-list li{color:@grey-dark}
+ul.meta-list li a{color:@blue}
+ul.meta-list li a:hover{color:@orange-light}
+ul.bullet li>figure{color:@back-color}
+ul.bullet li a:hover{color:@alt-light}
+ul.list-carousel li a:hover{color:@grey-dark}
+ul.social-icons li:hover a{color:@back-color!important}
+ul.social-icons li.facebook:hover{background:@blue-dark;color:@back-color!important}
+ul.social-icons li.twitter:hover{background:@black-light;color:@back-color!important}
+ul.social-icons li.linkedin:hover{background:@blue;color:@back-color!important}
+dl.dl-group dt{color:@black}
+ul.list-listings.blog-list .list-item-info{color:@base8}
+ul.list-listings.blog-list .list-item-info a{color:@base}
+.blog-post h2{color:@black-light}
+.blog-post p{color:@grey-dark}
+.post-tags{color:@base8}
+.post-tags a{color:@base}
+.post-meta-bot .post-author,.post-meta-bot .post-comments{color:@alt-light}
+.post-meta-bot .post-author a,.post-meta-bot .post-comments a{color:@base}
+.post-meta-bot .post-more{color:@blue-light}
+.post-meta-bot .post-more a{color:@blue-light}
+.post-item.style1{border:1px solid @border-color}
+.post-item.style1 .post-comments{color:@text-color}
+.post-item.style1 .post-comments strong{color:@alt}
+.post-item.style1 .post-meta-bot{border-top:1px solid @border-color}
+.post-item.style1 .post-meta-bot .like-button{border-left:1px solid @border-color;background:@white}
+.post-item.style1 .post-meta-bot .like-button .button i{color:@base8}
+.post-item.style1 .post-meta-bot .like-button .count{color:@base8}
+.post-item.style1 .post-meta-bot .like-button:hover .button i{color:@base}
+.post-item.style1 .post-meta-bot .like-button.checked .button i{color:@base}
+.post-item.style2 .post-meta .date{color:@text-color;border-bottom:1px solid @border-color}
+.post-item.style2 .post-comments{color:@text-color;background:@white}
+.post-item.style2 .post-comments strong{color:@alt}
+.post-item.style2 .post-meta-bot{border-top:1px solid @border-color}
+.comment-list .comment-count{color:@text-color}
+.link-add-comment{color:@base}
+.link-add-comment:hover{color:@base}
+.comment-list .children li.comment:before{border-left:2px solid @back-color;border-bottom:2px solid @back-color}
+.comment-body{background:@white;border:1px solid @border-color}
+.comment-body:after{border-right-color:@white}
+.comment-body:before{border-right-color:@border-color}
+.comment-avatar{border:3px solid @back-color;-webkit-box-shadow:2px 2px 2px fadeout(@black,20%);box-shadow:2px 2px 2px fadeout(@black,20%)}
+.comment-author .link-author{color:@text-color}
+.comment-author .comment-meta{color:@base8}
+.comment-author .comment-meta .link-reply{color:@base}
+.widget-tags{background:@grey}
+.widget-tags .inner{background:@back-color;-webkit-box-shadow:3px 3px 5px fadeout(@black,20%);box-shadow:3px 3px 5px fadeout(@black,20%)}
+.widget-tags .widget-title{color:@blue}
+.widget-tags .widget-title i{border:2px solid @blue-light;background:url(images/arrows-thin.png) -27px -28px no-repeat}
+@media only screen and (-webkit-min-device-pixel-ratio:1.5),only screen and (min-resolution:144dpi) {
+.widget-tags .widget-title i{background-image:url(images/arrows-thin-x2.png)}
+}
+.tagcloud a{background:@base}
+.tagcloud a:hover{background:@red-light}
+.tagcloud.bordered a{border:1px solid @base;color:@base}
+.tagcloud.bordered.base a{border:1px solid @base;color:@base}
+.tagcloud.bordered.base a:hover{background:@base;color:@back-color}
+.tagcloud.bordered.base-alt a{border:1px solid @alt;color:@alt}
+.tagcloud.bordered.base-alt a:hover{background:@alt;color:@back-color}
+.tagcloud.bordered.light a{border:1px solid @grey-light;color:@black-dark}
+.tagcloud.bordered.light a:hover{background:@grey-light;color:@black-dark}
+.tagcloud.bordered.dark a{border:1px solid @black-dark;color:@black-dark}
+.tagcloud.bordered.dark a:hover{background:@black-dark;color:@back-color}
+.tagcloud.base a{background:@base}
+.tagcloud.base a:hover{background:@red-light}
+.tagcloud.base-alt a{background:@alt}
+.tagcloud.base-alt a:hover{background:@alt-light}
+.tagcloud.light a{background:@grey-light}
+.tagcloud.light a:hover{background:@back-color}
+.tagcloud.dark a{background:@black-dark}
+.tagcloud.dark a:hover{background:@black}
+.widget-tags.styled{background:@back-color}
+.ribbon.base{background:@base;color:@back-color;border-right:5px solid @red-light}
+.ribbon.light{background:@grey-light;color:@black;border-right:5px solid @grey-light}
+.ribbon.dark{background:@black-dark;color:@back-color;border-right:5px solid @alt-light}
+.ribbon.base-alt{background:@alt;color:@back-color;border-right:5px solid @black}
+.ribbon.red{background:@base;color:@back-color;border-right:5px solid @red-light}
+.ribbon.orange{background:@orange-light;color:@back-color;border-right:5px solid @orange-light}
+.ribbon.yellow{background:@yellow-light;color:@back-color;border-right:5px solid @yellow-light}
+.ribbon.base:before{border-top:27px solid @base}
+.ribbon.base:after{border-bottom:27px solid @base}
+.ribbon.light:before{border-top:27px solid @grey-light}
+.ribbon.light:after{border-bottom:27px solid @grey-light}
+.ribbon.dark:before{border-top:27px solid @black-dark}
+.ribbon.dark:after{border-bottom:27px solid @black-dark}
+.ribbon.base-alt:before{border-top:27px solid @alt}
+.ribbon.base-alt:after{border-bottom:27px solid @alt}
+.ribbon.red:before{border-top:27px solid @base}
+.ribbon.red:after{border-bottom:27px solid @base}
+.ribbon.orange:before{border-top:27px solid @orange-light}
+.ribbon.orange:after{border-bottom:27px solid @orange-light}
+.ribbon.yellow:before{border-top:27px solid @yellow-light}
+.ribbon.yellow:after{border-bottom:27px solid @yellow-light}
+.badge-corner{border-top:66px solid @alt-light9;border-top-color:@base3}
+.badge-corner span{color:@back-color}
+.badge-corner-base{border-top-color:@base}
+.badge-corner-alt{border-top-color:@alt}
+.badge-corner-light{border-top-color:@grey-light}
+.badge-corner-light span{color:@black}
+.badge-corner-dark{border-top-color:@black-dark}
+.badge-corner-orange{border-top-color:@orange-light}
+.star-rating i{color:@yellow-light!important}
+.rating span.star:before{color:@grey-light}
+.rating span.voted:before{color:@yellow-light}
+.rating:hover span.star:before{color:@grey-light!important}
+.rating:hover span.star.over:before{color:@yellow-light!important}
+.skills li{color:@back-color}
+.skills .jq{background:@green}
+.skills .css{background:@red}
+.skills .html{background:@blue-light}
+.skills .php{background:@blue-light}
+.skills .sql{background:@grey-light}
+.form-base .form-control{background:@base;border:1px solid @base-dark;color:@back-color}
+.form-base label{color:@back-color}
+.form-base .form-control:focus{background:@base;border-color:@base-dark}
+.form-base .form-control:-moz-placeholder{color:@back-color}
+.form-base .form-control::-moz-placeholder,.form-base .form-control[placeholder]{color:@back-color}
+.form-base .form-control:-ms-input-placeholder{color:@back-color}
+.form-base .form-control::-webkit-input-placeholder{color:@back-color}
+.form-light .form-control{background:@grey-light;border:1px solid @grey;color:@text-color}
+.form-light .form-control:focus{border-color:@base}
+.form-light .form-control:-moz-placeholder{color:@base8}
+.form-light .form-control::-moz-placeholder,.form-light .form-control[placeholder]{color:@base8}
+.form-light .form-control:-ms-input-placeholder{color:@base8}
+.form-light .form-control::-webkit-input-placeholder{color:@base8}
+.form-dark .form-control{background:@black-dark;border:1px solid @alt-light}
+.form-dark label{color:@back-color}
+.form-dark .form-control:focus{background:@black-dark;border-color:@back-color}
+.form-dark .form-control:-moz-placeholder{color:@base8}
+.form-dark .form-control::-moz-placeholder,.form-dark .form-control[placeholder]{color:@base8}
+.form-dark .form-control:-ms-input-placeholder{color:@base8}
+.form-dark .form-control::-webkit-input-placeholder{color:@base8}
+.form-alpha .form-control:focus{color:@back-color}
+.form-alpha .form-control:-moz-placeholder{color:@base8}
+.form-alpha .form-control::-moz-placeholder,.form-light .form-control[placeholder]{color:@base8}
+.form-alpha .form-control:-ms-input-placeholder{color:@base8}
+.form-alpha .form-control::-webkit-input-placeholder{color:@base8}
+.user-form .form-header{background:@white;border-bottom:1px solid @border-color}
+.user-form .form-header h2{color:@text-color}
+.user-form .form-footer{background:@white;border-top:1px solid @border-color}
+.user-form .form-header.base{background:@base}
+.user-form .form-header.base-alt{background:@alt}
+.user-form .form-header.light{background:@grey-light}
+.user-form .form-header.dark{background:@black-dark}
+.user-form .form-footer.base{background:@base}
+.user-form .form-footer.base-alt{background:@alt}
+.user-form .form-footer.light{background:@grey-light}
+.user-form .form-footer.dark{background:@black-dark}
+.user-form-alpha{background:fadeout(@white,75%)!important}
+.user-form-alpha .form-header,.user-form-alpha .form-footer{background:fadeout(@white,75%)!important}
+.inline-form-filters .optional-form-filters-trigger:after{background:@base;color:@back-color}
+.sky-form a{color:@base}
+.sky-form .input input,.sky-form .select select,.sky-form .textarea textarea{background:@grey-light}
+.sky-form .input input,.sky-form .select select,.sky-form .textarea textarea,.sky-form .radio i,.sky-form .checkbox i,.sky-form .toggle i,.sky-form .icon-append,.sky-form .icon-prepend{border-color:@grey-light}
+.sky-form .toggle i:before{background-color:@base}
+.sky-form .rating input+label:hover,.sky-form .rating input+label:hover~label{color:@base}
+.sky-form .radio,.sky-form .checkbox{color:@text-color}
+.sky-form .input input:focus,.sky-form .select select:focus,.sky-form .textarea textarea:focus,.sky-form .radio input:focus+i,.sky-form .checkbox input:focus+i,.sky-form .toggle input:focus+i{border-color:@base}
+.sky-form .radio input+i:after{background-color:@base}
+.sky-form .checkbox input+i:after{color:@base}
+.sky-form .radio input:checked+i,.sky-form .checkbox input:checked+i,.sky-form .toggle input:checked+i{border-color:@base}
+.sky-form .rating input:checked~label{color:@base}
+.ui-datepicker-inline{border:2px solid @grey-light;background:@back-color}
+.sky-form .ui-slider{border:2px solid @grey-light;background:@back-color}
+.sky-form .ui-slider-handle{border:2px solid @grey-light;background:@back-color}
+ol.progtrckr li.progtrckr-done{color:@text-color;border-bottom:4px solid @alt}
+ol.progtrckr li.progtrckr-todo{color:@grey-dark;border-bottom:4px solid @grey-dark}
+ol.progtrckr li.progtrckr-done:before{color:@back-color;background-color:@alt}
+ol.progtrckr li.progtrckr-todo:before{color:@grey-dark}
+.social-media i{background:@grey;color:@text-color}
+.social-media .facebook{background:@blue-dark;color:@back-color}
+.social-media .twitter{background:@blue-light;color:@back-color}
+.social-media .google{background:@orange;color:@back-color}
+.social-media i:hover{color:@grey-dark}
+.form-errors .error{color:@red}
+.help-inline{color:@red}
+#info-box{color:@green}
+.testimonial-author{color:@grey-dark}
+.contact-info h5 i{color:@base}
+.client{border:1px solid @border-color}
+footer{background:@black}
+footer h4{color:@grey-light}
+footer .col p{color:@grey-light}
+footer a{color:@grey-light}
+footer .col ul li{color:@grey-light}
+footer .col ul li span{color:@back-color}
+footer .col address{color:@grey}
+footer .col.col-social-icons i{background:@back-color;color:@text-color}
+footer hr{border-top:1px solid @black-light}
+footer .copyright{color:@back-color}
+.fontawesome-icon-list .fa-hover a{color:@black}
+.fontawesome-icon-list .fa-hover a:hover{background-color:@green-dark;color:@back-color}
+.fontawesome-icon-list .fa-hover a:hover .text-muted{color:@green-light}
+.blockquote-1:hover{border-color:@base}
+.section-title.left{color:@text-color}
+.section-title.left small{color:@base8}
+.section-title-wr .section-title.center{color:@text-color}
+.section-title-wr .section-title.center small{color:@base8}
+.section-title-wr .aux-nav {border-bottom: 1px solid @border-color;}
+.section-title-wr.style-2{border-bottom:2px solid @base}
+.section-title-wr.style-2 .aux-nav a{color:@alt-light}
+.section-title-wr.style-2.base{border-color:@base}
+.section-title-wr.style-2.light{border-color:@grey-light}
+.section-title-wr.style-2.dark{border-color:@black-dark}
+.section-title-wr.style-2.base-alt{border-color:@alt}
+.section-title-wr.style-2.base .section-title.left span{background:@base;color:@back-color}
+.section-title-wr.style-2.light .section-title.left span{background:@grey-light;color:@text-color}
+.section-title-wr.style-2.dark .section-title.left span{background:@black-dark;color:@back-color}
+.section-title-wr.style-2.base-alt .section-title.left span{background:@alt;color:@back-color}
+.section-title-wr.style-3 span{border-bottom:1px solid @text-color}
+.section-title-wr.style-3 small{color:@base8}
+.base .section-title-wr.style-3 span{border-bottom:1px solid @back-color}
+.base-alt .section-title-wr.style-3 span{border-bottom:1px solid @back-color}
+.light .section-title-wr.style-3 span{border-bottom:1px solid @text-color}
+.dark .section-title-wr.style-3 span{border-bottom:1px solid @back-color}
+.section-title-wr.style-4 .section-title{border-bottom:1px solid @border-color}
+.section-title-wr.style-4 span{border-bottom:3px solid @base;background:@back-color}
+.section-title-wr.style-4 span:after{border-bottom:1px solid @text-color}
+.section-title-wr.style-4 small{color:@base8}
+.layer-slider-wrapper .text-shadow{text-shadow:0 2px 2px @black}
+.layer-slider-wrapper .subtitle{color:@base}
+.layer-slider-wrapper .list-item{color:@base}
+.layer-slider-wrapper .list-item-2 span{background:@base;color:@back-color}
+.layer-slider-wrapper .list-item-2 i{background:@text-color;color:@back-color}
+.layer-slider-wrapper .text-bordered{border:2px solid @back-color}
+.static-page-image .description-left p{color:@back-color}
+.static-page-image .text-shadow{text-shadow:0 2px 2px @black}
+.static-page-image .subtitle{color:@base}
+.static-page-image .list-item{color:@base}
+.static-page-image .list-item-2 span{background:@base;color:@back-color}
+.static-page-image .list-item-2 i{background:@text-color;color:@back-color}
+.static-page-image .text-bordered{border:2px solid @back-color}
+.box-element.box-element-bordered.base{border-color:@base;color:@base!important}
+.box-element.box-element-bordered.base h1{color:@base;color:@base!important}
+.box-element.box-element-bordered.base-alt{border-color:@alt;color:@alt}
+.box-element.box-element-bordered.base-alt h1{color:@alt!important}
+.box-element.box-element-bordered.light{border-color:@grey-light;color:@grey-light!important}
+.box-element.box-element-bordered.light h1{border-color:@grey-light;color:@grey-light!important}
+.box-element.box-element-bordered.dark{border-color:@black-dark;color:@black-dark!important}
+.box-element.box-element-bordered.dark h1{color:@black-dark;color:@black-dark!important}
+.carousel-2 .title{color:@text-color}
+.carousel-2 .carousel-indicators li{background-color:@grey-light;border:1px solid @grey}
+.carousel-2 .carousel-indicators .active{background-color:@base}
+.carousel-2 .carousel-nav a{background:@grey-light;color:@base}
+.carousel-2 .carousel-nav a:hover{background:@base!important;color:@back-color}
+.carousel-3 .carousel-nav a{background:@grey;color:@base}
+/* .carousel-3 .carousel-nav a:hover{background:@base!important;color:@back-color;background:@back-color} */
+.carousel-testimonials .carousel-indicators li{background-color:@base}
+.like-button .button{color:@grey}
+.like-button .button i{color:@grey}
+.like-button .button.liked i{color:@base}
+ul.list-listings>li{border:1px solid @border-color}
+ul.list-listings>li.featured{border-color:@base}
+ul.list-listings .listing-body .meta-info{border-top:1px solid @border-color}
+ul.list-listings .listing-body .meta-info ul li{border-right:1px solid @border-color}
+ul.list-listings .listing-body .meta-info ul li i{color:@text-color}
+ul.list-listings .listing-actions{border-left:1px solid @border-color}
+ul.list-listings-2>li{border:1px solid @border-color}
+ul.list-listings-2>li.featured{border-color:@base}
+ul.list-listings-2 .listing-image{border-right:1px solid @border-color}
+ul.list-listings-2 .listing-footer ul.aux-info{background:@back-color;border-top:1px solid @border-color}
+ul.list-listings-2 .listing-footer ul.aux-info li{border-right:1px solid @border-color}
+ul.list-listings-2 .listing-footer ul.aux-info li i{color:@text-color}
+ul.list-check li i{color:@base}
+ul.categories{border:1px solid @border-color}
+ul.categories>li{border-bottom:1px solid @border-color}
+ul.categories>li>a:hover{background:@base;color:@back-color}
+ul.categories>li>a i{color:@base8}
+ul.categories>li>a:hover i{color:@back-color}
+ul.categories>li>ul{background:@white}
+ul.categories>li>ul>li{border-top:1px solid @border-color}
+ul.aux-info-cells{background:@back-color}
+ul.aux-info-cells li{color:@text-color;border-right:1px solid @border-color}
+ul.aux-info-cells li i{color:@text-color}
+.timeline .year{background:@black-dark}
+.timeline .event{border:1px solid @border-color}
+.timeline .event:nth-child(2n):before{background:@base}
+.timeline .event:nth-child(2n-1):after{border-right:12px solid @white}
+.timeline .event:nth-child(2n-1):before{background:@base}
+.timeline .event-date{background:@back-color;border-bottom:1px solid @border-color}
+.timeline .event:nth-child(2n) .event-date:after{border-left:12px solid @white}
+.timeline .event:nth-child(2n) .event-date:before{border-left:13px solid @border-color}
+.timeline .event:nth-child(2n-1) .event-date:after{border-right:12px solid @white}
+.timeline .event:nth-child(2n-1) .event-date:before{border-right:13px solid @border-color}
+.timeline .event-date{background:@white}
+.timeline .event-date h3{color:@text-color}
+.timeline .event-date small{color:@grey-dark}
+.timeline .event-body{background:@back-color}
+.timeline .event-footer{border-top:1px solid @border-color}
+#toTop{background:@grey-dark}
+#toTopHover{background:@base}
+#toTop:before{color:@back-color}
+.tags-list li{border:1px solid @base;background:@back-color;color:@base}
+.tags-list li a{color:@base}
+.tags-list li:hover{background:@base;color:@back-color}
+.tags-list li:hover a{color:@back-color}
+.range-slider-wrapper .tooltip{background:@black-dark;color:@back-color}
+.range-slider-wrapper .tooltip:after{border-color:@black-dark;border-top-color:@black-dark}
+.user-profile-img{border-top:3px solid @base}
+.progress{background-color:@grey-light!important;-webkit-box-shadow:inset 0 1px 2px @base4;box-shadow:inset 0 1px 2px @base4}
+.progress.base{background-color:@base}
+.progress.base-alt{background-color:@alt}
+.progress.light{background-color:@grey-light}
+.progress.dark{background-color:@black-dark}
+.progress{background-color:@white}
+.progress-bar{background-color:@base}
+.progress-text .mark{color:@back-color}
+.progress.style-3 .progress-bar{background-image:-webkit-gradient(linear,100% 0,0 100%,color-stop(.25,fadeout(@white,15%)),color-stop(.25,transparent),color-stop(.5,transparent),color-stop(.5,fadeout(@white,15%)),color-stop(.75,fadeout(@white,15%)),color-stop(.75,transparent),to(transparent));background-image:-webkit-linear-gradient(135deg,fadeout(@white,15%) 25%,transparent 25%,transparent 50%,fadeout(@white,15%) 50%,fadeout(@white,15%) 75%,transparent 75%,transparent);background-image:-moz-linear-gradient(135deg,fadeout(@white,15%) 25%,transparent 25%,transparent 50%,fadeout(@white,15%) 50%,fadeout(@white,15%) 75%,transparent 75%,transparent);background-image:linear-gradient(135deg,fadeout(@white,15%) 25%,transparent 25%,transparent 50%,fadeout(@white,15%) 50%,fadeout(@white,15%) 75%,transparent 75%,transparent);background-color:@blue}
+.progress.style-3 .progress-bar.base-alt{background-color:@alt}
+.progress.style-3 .progress-bar.light{background-color:@grey-light}
+.progress.style-3 .progress-bar.dark{background-color:@black-dark}
+.progress.download .download-bar{background-color:@base}
+.progress.download .download-bar.base-alt{background-color:@alt-dark}
+.progress.download .download-bar.light{background-color:@grey}
+.progress.download .download-bar.dark{background-color:@black-dark}
+div.wp-tabs div.tab-content{background-color:@back-color;border:1px solid @border-color}
+div.wp-tabs div.tab-content.tab-content-inverse{border:1px solid @grey-light}
+div.wp-tabs ul.nav-tabs li.active a{background:@white;border-top:1px solid @border-color;color:@text-color}
+div.wp-tabs ul.nav-tabs a{background:@white;color:@text-color}
+div.wp-tabs ul.nav-tabs a:hover{border-top:1px solid @border-color;color:@blue}
+div.wp-tabs ul.nav-tabs a,div.wp-tabs ul.nav-tabs a:hover{border:1px solid @grey-light;border-top:1px solid @border-color}
+div.wp-tabs ul.nav-tabs li:last-child a,div.wp-tabs ul.nav-tabs li:last-child a:hover{border-right:1px solid @border-color}
+div.wp-tabs-left ul.nav-tabs a,div.wp-tabs-left ul.nav-tabs a:hover{border:1px solid @grey-light;border-left:2px solid @grey;color:@grey-light}
+div.wp-tabs-right ul.nav-tabs a,div.wp-tabs-right ul.nav-tabs a:hover{border:1px solid @grey-light;border-right:2px solid @grey;color:@grey-light}
+div.tabbable.wp-tabs-left div.tab-content{-moz-box-shadow:1px 1px 5px 0 fadeout(@black,4%);-webkit-box-shadow:1px 1px 5px 0 fadeout(@black,4%);background-color:@back-color;border:1px solid @grey-light;box-shadow:1px 1px 5px 0 fadeout(@black,4%)}
+div.tabbable.wp-tabs-left ul.nav-tabs a{background:@grey-light;border:1px solid @grey-light;color:@text-color}
+div.tabbable.wp-tabs-left ul.nav-tabs li.active a{background:@back-color;color:@grey-light}
+div.tabbable.wp-tabs-right div.tab-content{-moz-box-shadow:1px 1px 5px 0 fadeout(@black,4%);-webkit-box-shadow:1px 1px 5px 0 fadeout(@black,4%);background-color:@back-color;border:1px solid @grey-light;box-shadow:1px 1px 5px 0 fadeout(@black,4%)}
+div.tabbable.wp-tabs-right ul.nav-tabs a{background:@grey-light;border:1px solid @grey-light;color:@text-color}
+div.tabbable.wp-tabs-right ul.nav-tabs li.active a{background:@back-color;color:@grey-light}
+.nav-tabs.nav-justified>.active>a,.nav-tabs.nav-justified>.active>a:hover,.nav-tabs.nav-justified>.active>a:focus{border:1px solid @border-color}
+.tabs-framed{border:1px solid @border-color}
+.tabs{border-bottom:1px solid @border-color}
+.tabs li{border-right:1px solid @border-color}
+.tabs li.active{background:@white}
+.tabs li a{color:@text-color}
+.tabs li.active a{color:@text-color;border-bottom:3px solid @base}
+.tab-image{-webkit-box-shadow:2px 2px 13px fadeout(@blue-light,16%);box-shadow:2px 2px 13px fadeout(@blue-light,16%)}
+.nav-pills{border:1px solid @grey-light}
+.nav-pills>li>a{border-right:1px solid @border-color}
+.nav-pills>li>a:hover,.nav-pills>li>a:focus{background:@grey-light}
+.nav-pills>li.active>a,.nav-pills>li.active>a:hover,.nav-pills>li.active>a:focus{color:@base}
+.panel{background-color:@back-color}
+.panel.panel-base{background-color:@base}
+.panel-default{border-color:@border-color}
+.panel-default>.panel-heading{border-color:@border-color;background:@white}
+.panel-default>.panel-heading h2{color:@text-color}
+.panel-dark{background:@black-dark;color:@back-color}
+.panel-dark>.panel-heading{border-color:@black-dark;background:@black-dark;color:@back-color}
+.panel-dark .bb{border-color:@black-dark}
+.panel-light{background:@grey-light;color:@black}
+.panel-light>.panel-heading{border-color:@border-color;background:@grey-light;color:@black}
+.panel-light .bb{border-color:@grey-light}
+.panel-group .panel{border-color:@grey-light}
+.panel-group .panel-heading{background:@grey-light}
+.panel-group .panel-heading:after{color:@text-color;color:@text-color}
+.panel-group .panel-heading a{color:@text-color}
+.panel-group .panel-heading a i{color:@text-color}
+.panel-default>.panel-heading+.panel-collapse>.panel-body{border-color:@grey-light;color:@alt-light}
+.table>thead>tr>th{border-bottom:1px solid @grey}
+.table>thead>tr{background:@grey-light}
+.pagination-style-2>li>a{border-color:@border-color}
+.pagination>li>a,.pagination>li>span{background-color:@back-color;border-color:@border-color;color:@base}
+.pagination>li>a:hover,.pagination>li>span:hover{background-color:@base;border-color:@border-color;color:@back-color}
+.pagination>.active>a,.pagination>.active>span,.pagination>.active>a:hover,.pagination>.active>span:hover,.pagination>.active>a:focus,.pagination>.active>span:focus{background-color:@base;border-color:@base;color:@back-color}
+.well{background:@white;border-color:@border-color}
+.well.base{background:@base}
+.well.base-alt{background:@alt}
+.well.light{background:@grey-light}
+.well.dark{background:@black-dark}
+.btn-a-one{background-color:@white;color:@back-color}
+.btn-a-one:hover,.btn-a-one:focus,.btn-a-one:active,.btn-a-one.active,.open .dropdown-toggle.btn-a-one{color:@base;background-color:@back-color}
+.input-group-btn .btn-a-one{border-left:1px solid @back-color}
+.btn-b-white{border:2px solid @back-color!important;color:@back-color!important}
+.btn-b-white:hover,.btn-b-white:focus,.btn-b-white:active,.btn-b-white.active,.open .dropdown-toggle.btn-b-white{color:@base!important;background-color:@back-color;border-color:@back-color}
+.btn-b-white:hover:before{color:@base!important}
+.btn-b-white.btn-icon:before{border-right:2px solid @back-color}
+.btn-b-white.btn-icon-right:before{border-left:2px solid @back-color}
+.btn-b-base{border:2px solid @base!important;color:@base}
+.btn-b-base:hover,.btn-b-base:focus,.btn-b-base:active,.btn-b-base.active,.open .dropdown-toggle.btn-b-base{color:@back-color;background-color:@base;border-color:@base!important}
+.btn-b-base.btn-icon:before{border-right:2px solid @base}
+.btn-b-base.btn-icon-right:before{border-left:2px solid @base}
+.btn-b-alt{border:2px solid @alt!important;color:@alt}
+.btn-b-alt:hover,.btn-b-alt:focus,.btn-b-alt:active,.btn-b-alt.active,.open .dropdown-toggle.btn-b-alt{color:@back-color;background-color:@alt;border-color:@alt!important}
+.btn-b-alt.btn-icon:before{border-right:2px solid @alt}
+.btn-b-alt.btn-icon-right:before{border-left:2px solid @alt}
+.btn-b-light{border:2px solid @grey-light!important;color:@grey-light}
+.btn-b-light:hover,.btn-b-light:focus,.btn-b-light:active,.btn-b-light.active,.open .dropdown-toggle.btn-b-light{color:@text-color;background-color:@grey-light;border-color:@grey!important}
+.btn-b-light.btn-icon:before{border-right:2px solid @grey-light}
+.btn-b-light.btn-icon-right:before{border-left:2px solid @grey-light}
+.btn-b-dark{border:2px solid @black-dark;color:@black-dark}
+.btn-b-dark:hover,.btn-b-dark:focus,.btn-b-dark:active,.btn-b-dark.active,.open .dropdown-toggle.btn-b-dark{color:@back-color;background-color:@black-dark;border-color:@black-dark!important}
+.btn-b-dark.btn-icon:before{border-right:2px solid @black-dark!important}
+.btn-b-dark.btn-icon-right:before{border-left:2px solid @black-dark}
+.btn-base{color:@back-color!important;background-color:@base;border-color:@base-light!important}
+.btn-base:hover,.btn-base:focus,.btn-base:active,.btn-base.active,.open .dropdown-toggle.btn-base{color:@back-color;background-color:@base-dark;border-color:@base!important}
+.btn-alt{color:@back-color;background-color:@alt;border-color:@alt-dark!important}
+.btn-alt:hover,.btn-alt:focus,.btn-alt:active,.btn-alt.active,.open .dropdown-toggle.btn-alt{color:@back-color;background-color:@alt-light;border-color:@alt-light!important}
+.btn-dark{color:@back-color;background-color:@black-dark;border-color:@black-dark!important}
+.btn-dark:hover,.btn-dark:focus,.btn-dark:active,.btn-dark.active,.open .dropdown-toggle.btn-dark{color:@back-color;background-color:@black;border-color:@black}
+.btn-light{color:@text-color;background-color:@grey-light;border-color:@grey-light!important}
+.btn-light:hover,.btn-light:focus,.btn-light:active,.btn-light.active,.open .dropdown-toggle.btn-light{color:@text-color;background-color:@back-color;border-color:@back-color!important}
+.btn-white{color:@text-color;background-color:@back-color;border-color:@base9!important}
+.btn-white:hover,.btn-white:focus,.btn-white:active,.btn-white.active,.open .dropdown-toggle.btn-white{color:@text-color;background-color:@back-color;border-color:@base9!important}
+.btn-icon:before{color:@back-color}
+.btn-base:before{background-color:@base}
+.btn-alt:before{background-color:@alt-dark}
+.btn-dark:before{background-color:@black-dark}
+.btn-light:before{background-color:@grey;color:@text-color}
+.btn-white:before{background-color:@grey;color:@text-color}
+.dl-menuwrapper li a{color:@back-color;border-bottom:1px solid @text-color}
+.no-touch .dl-menuwrapper li a:hover{background:fadeout(@yellow-light,10%)}
+.dl-menuwrapper li.dl-back>a{background:@base4}
+.dl-menuwrapper li.dl-back:after,.dl-menuwrapper li>a:not(:only-child):after{color:@back-color}
+.dl-menuwrapper li.dl-back:after{color:fadeout(@grey,30%)}
+.dl-menuwrapper li>a:after{color:fadeout(@black,15%)}
+.no-js .dl-menuwrapper li>a:not(:only-child){background:@base4}
+.cuselFrameRight:before{border-top:9px solid @grey}
+.cusel:hover .cuselFrameRight:before,.cuselOpen .cuselFrameRight:before,.cuselFocus .cuselFrameRight:before{border-top-color:@grey-dark}
+.cuselText label{color:@grey-dark}
+#cuselBox .jScrollPaneContainer{border:1px solid @grey;background:@blue-light}
+#cuselBox span label{border-top:1px solid @grey}
+#cuselBox span:hover,#cuselBox span.cuselOptHover,#cuselBox span.cuselActive{color:@red;background:@red}
+#cuselBox .jScrollPaneTrack{background:@grey-dark;background:fadeout(@grey,36%)}
+#cuselBox .jScrollPaneDrag{background:@grey-dark}
+.jScrollArrowUp:before,.jScrollArrowDown:before{border-bottom:6px solid @grey-dark}
+.jScrollArrowDown:before{border-top:6px solid @grey-dark}
+.form-base .cuselText label{color:@back-color}
+.form-base .cuselFrameRight{background:@base;border-left:1px solid @base-dark}
+.form-base .cuselFrameRight:before{border-top:9px solid @back-color!important}
+#cuselBox.base .jScrollPaneContainer{border:1px solid @base-dark;background:@base!important}
+#cuselBox.base span label{border-top:1px solid @base-dark;color:@back-color}
+#cuselBox.base span:hover,#cuselBox.base span.cuselOptHover,#cuselBox.base span.cuselActive{color:@back-color;background:@blue-dark}
+#cuselBox.base .jScrollPaneTrack{background:@blue-dark;background:fadeout(@blue-dark,36%)}
+#cuselBox.base .jScrollPaneDrag{background:@blue-dark}
+#cuselBox.base .jScrollArrowUp:before{border-bottom-color:@blue-dark}
+#cuselBox.base .jScrollArrowDown:before{border-top-color:@blue-dark}
+.vjs-default-skin{color:@grey-light}
+.vjs-big-play-button{background:@back-color;background:fadeout(@white,90%)}
+.vjs-big-play-button:hover{background:@back-color}
+.vjs-big-play-button:before{color:@base}
+.vjs-styled-skin.base .vjs-big-play-button:before{color:@base}
+.vjs-styled-skin.base-alt .vjs-big-play-button:before{color:@alt}
+.vjs-styled-skin.light .vjs-big-play-button:before{color:@black-dark}
+.vjs-styled-skin.dark .vjs-big-play-button:before{color:@black-dark}
+.vjs-default-skin .vjs-loading-spinner:before{text-shadow:0 0 .1em @black-dark}
+.video-js{background-color:@black-dark}
+.video-js .vjs-text-track{background-color:@black-dark;background-color:fadeout(@black,50%)}
+.video-js .vjs-subtitles{color:@back-color}
+.video-js .vjs-captions{color:@yellow-light}
+.vjs-styled-skin{color:@yellow-light}
+.vjs-styled-skin .vjs-control-bar{background:@base}
+.vjs-styled-skin.base .vjs-control-bar{background:@base}
+.vjs-styled-skin.base-alt .vjs-control-bar{background:@alt}
+.vjs-styled-skin.light .vjs-control-bar{background:@grey-light}
+.vjs-styled-skin.dark .vjs-control-bar{background:@black-dark}
+.vjs-styled-skin.shadowed .vjs-control-bar{-webkit-box-shadow:3px 3px 5px fadeout(@black,20%);box-shadow:3px 3px 5px fadeout(@black,20%)}
+.vjs-styled-skin .vjs-control:focus:before,.vjs-styled-skin .vjs-control:hover:before{text-shadow:0 0 1em @back-color}
+.vjs-styled-skin .vjs-play-control{background:@red-light}
+.vjs-styled-skin.base .vjs-play-control{background:@red-light}
+.vjs-styled-skin.base-alt .vjs-play-control{background:@alt-light}
+.vjs-styled-skin.light .vjs-play-control{background:@grey}
+.vjs-styled-skin.dark .vjs-play-control{background:@black}
+.vjs-styled-skin .vjs-mute-control,.vjs-styled-skin .vjs-volume-menu-button{background:@red}
+.vjs-styled-skin.base .vjs-mute-control,.vjs-styled-skin.base .vjs-volume-menu-button{background:@base}
+.vjs-styled-skin.base-alt .vjs-mute-control,.vjs-styled-skin.base-alt .vjs-volume-menu-button{background:@alt-dark}
+.vjs-styled-skin.light .vjs-mute-control,.vjs-styled-skin.light .vjs-volume-menu-button{background:@grey}
+.vjs-styled-skin.dark .vjs-mute-control,.vjs-styled-skin.dark .vjs-volume-menu-button{background:@black-dark}
+.vjs-styled-skin .vjs-volume-control{background:@base}
+.vjs-styled-skin.base .vjs-volume-control{background:@base}
+.vjs-styled-skin.base-alt .vjs-volume-control{background:@alt-dark}
+.vjs-styled-skin.light .vjs-volume-control{background:@grey}
+.vjs-styled-skin.dark .vjs-volume-control{background:@black-dark}
+.vjs-styled-skin .vjs-volume-bar{background:@blue-dark}
+.vjs-styled-skin .vjs-volume-level{background:@blue-light}
+.vjs-styled-skin .vjs-progress-control{background:@back-color}
+.vjs-styled-skin .vjs-slider:focus{-webkit-box-shadow:0 0 2em @back-color;box-shadow:0 0 2em @back-color}
+.vjs-styled-skin .vjs-play-progress{background:@red}
+.vjs-styled-skin .vjs-load-progress{background:@grey-light;background:fadeout(@red,40%)}
+.vjs-styled-skin .vjs-time-controls,.vjs-styled-skin .vjs-time-divider{color:@green-light}
+.vjs-styled-skin.base .vjs-time-controls,.vjs-styled-skin.base .vjs-time-divider{color:@red-light}
+.vjs-styled-skin.base-alt .vjs-time-controls,.vjs-styled-skin.base-alt .vjs-time-divider{color:@alt-light}
+.vjs-styled-skin.light .vjs-time-controls,.vjs-styled-skin.light .vjs-time-divider{color:@grey-dark}
+.vjs-styled-skin.dark .vjs-time-controls,.vjs-styled-skin.dark .vjs-time-divider{color:@grey-dark}
+.vjs-styled-skin .vjs-current-time{color:@back-color}
+.vjs-styled-skin .vjs-fullscreen-control{background:@base}
+.vjs-styled-skin.base .vjs-fullscreen-control{background:@base}
+.vjs-styled-skin.base-alt .vjs-fullscreen-control{background:@alt-dark}
+.vjs-styled-skin.light .vjs-fullscreen-control{background:@grey}
+.vjs-styled-skin.dark .vjs-fullscreen-control{background:@black-dark}
+.vjs-styled-skin .vjs-menu{border-top:1.55em solid @black-dark;border-top-color:fadeout(@black,50%)}
+.vjs-styled-skin .vjs-menu-button .vjs-menu .vjs-menu-content{background-color:@black-dark;background-color:fadeout(@black,70%);-webkit-box-shadow:-.2em -.2em .3em fadeout(@white,20%);-moz-box-shadow:-.2em -.2em .3em fadeout(@white,20%);box-shadow:-.2em -.2em .3em fadeout(@white,20%)}
+.vjs-styled-skin .vjs-menu-button ul li.vjs-selected{background-color:@black-dark}
+.vjs-styled-skin .vjs-menu-button ul li:focus,.vjs-styled-skin .vjs-menu-button ul li:hover,.vjs-styled-skin .vjs-menu-button ul li.vjs-selected:focus,.vjs-styled-skin .vjs-menu-button ul li.vjs-selected:hover{color:@black-dark;background-color:@back-color;background-color:fadeout(@white,75%);-webkit-box-shadow:0 0 1em @back-color;-moz-box-shadow:0 0 1em @back-color;box-shadow:0 0 1em @back-color}
+.vjs-styled-skin .vjs-captions-button:focus .vjs-control-content:before,.vjs-styled-skin .vjs-captions-button:hover .vjs-control-content:before{-webkit-box-shadow:0 0 1em @back-color;-moz-box-shadow:0 0 1em @back-color;box-shadow:0 0 1em @back-color}
+.video-js.vjs-styled-skin{background-color:@black-dark}
+.video-player .video-js.vjs-styled-skin{-webkit-box-shadow:5px 5px 5px fadeout(@black,20%);box-shadow:5px 5px 5px fadeout(@black,20%)}
+.header-alpha .top-header{background:fadeout(@white,50%)}
+.header-alpha .top-header .aux-text{color:@back-color}
+.header-alpha .top-header .top-header-menu>ul.top-menu>li>a{color:@back-color}
+.header-alpha .top-header .top-header-top-menu>ul.top-menu>li>a{color:@back-color}
+.header-alpha .top-header .top-header-top-menu>ul.top-menu>li>a:hover{color:@red}
+.header-alpha .top-header .top-header-menu ul.top-menu>li ul.sub-menu{background:fadeout(@black,85%);color:@back-color}
+.header-alpha .top-header .top-header-menu ul.top-menu>li ul.sub-menu>li>a{color:@back-color}
+.header-alpha .top-header .top-header-menu ul.top-menu>li ul.sub-menu>li>a:hover{color:@red}
+.header-alpha .navbar-wp{background:@white}
+.header-alpha .navbar-wp .navbar-inner{border-bottom:1px solid @border-color}
+.header-alpha .navbar-wp .navbar-nav>li>a{color:@back-color}
+.header-alpha .navbar-wp .navbar-nav>.open>a,.header-alpha .navbar-wp .navbar-nav>.open>a:hover,.header-alpha .navbar-wp .navbar-nav>.open>a:focus{color:@text-color}
+.header-alpha .navbar-wp.affix .navbar-nav>li>a{color:@text-color}
+.header-alpha .navbar-wp.affix .navbar-nav>li>a:hover,.header-alpha .navbar-wp.affix .navbar-nav>li>a:focus,.header-alpha .navbar-wp.affix .navbar-nav>.open>a:hover,.header-alpha .navbar-wp.affix .navbar-nav>.open>a:focus{color:@text-color}
+.header-alpha .navbar-wp .navbar-nav>li>a.dropdown-form-toggle,.header-alpha .navbar-wp .navbar-nav>li>a.dropdown-form-toggle:hover,.header-alpha .navbar-wp .navbar-nav>li>a.dropdown-form-toggle:focus{color:@back-color}
+.header-alpha .navbar-wp.affix .navbar-nav>li>a.dropdown-form-toggle,.header-alpha .navbar-wp.affix .navbar-nav>li>a.dropdown-form-toggle:hover,.header-alpha .navbar-wp.affix .navbar-nav>li>a.dropdown-form-toggle:focus{color:@back-color}
+.header-alpha .navbar-wp .dropdown-menu{background:fadeout(@black,85%)}
+.header-alpha .navbar-wp .dropdown-menu>li{border-bottom:1px solid @white}
+.header-alpha .navbar-wp .dropdown-menu>li>a{color:@back-color}
+.header-alpha .navbar-wp .dropdown-menu>li>a:hover{background:@text-color;color:@back-color}
+.header-alpha .navbar-wp .dropdown-menu-search{background:fadeout(@black,85%);border:1px solid @back-color}
+.header-alpha .navbar-wp .dropdown-menu ul.mega-nav-ul li a{color:@back-color}
+.header-alpha .navbar-wp .dropdown-menu .mega-nav-section-title{color:@back-color}
+.header-alpha .navbar-wp .dropdown-menu ul.mega-nav-ul li a:before{color:@back-color}
+.dropdown-submenu>a:after{border-left-color:@grey-light}
+.product-list-filters{background:@white!important;border:1px solid @border-color!important}
+.product-list-filters .pagination li.active a{background:@base;color:@back-color}
+#carouselWork.carousel-3 .carousel-nav a[data-slide]{background: @base;	color: @back-color;}
+.view-switcher a.active{color: @alt;}
+ul.tree li > div {background:@base; color:@white; }
+.nav.nav-tabs-list li.active a {background: @base; color: @white; }
+
+@media (max-width:991px) {
+.product-list-filters{background:@white!important;border:1px solid @border-color!important}
+.product-list-filters .filter{border-bottom:1px solid @border-color}
+.product-list-filters .pagination li.active a{background:@base;color:@back-color}
+.navbar-wp.navbar-arrow .navbar-nav>li.open>a:after{border-bottom-color:@back-color}
+.navbar-wp.navbar-arrow .navbar-nav>li.open>a:before{border-bottom-color:@border-color}
+.body-wrap.body-boxed{border:1px solid @border-color}
+.navbar-wp.navbar-arrow .navbar-nav>li.open>a:after{border-bottom-color:@back-color}
+.navbar-wp.navbar-arrow .dropdown-search .dropdown-menu-search:after{border-bottom-color:@back-color}
+.wp-block.property.list .wp-block-footer ul.aux-info li i{color:@text-color}
+.wp-block.no-space.arrow-right.white:after{border-bottom-color:@back-color}
+.wp-block.no-space.arrow-right.base:after{border-top-color:@base}
+.wp-block.no-space.arrow-right.light:after{border-top-color:@grey-light}
+.wp-block.no-space.arrow-right.dark:after{border-top-color:@black-dark}
+.wp-block.no-space.arrow-right.base-alt:after{border-top-color:@alt}
+.carousel-1 .item-dark{color:@back-color}
+.carousel-1 .description .title{background:@back-color;color:@blue}
+.carousel-1 .description p{color:@back-color}
+.carousel-1 .description.fluid-center .features i{background:@back-color;color:@alt-light8}
+ul.list-listings-2>li{border:1px solid @border-color}
+ul.list-listings-2 .listing-body{background:@white}
+.scale{box-shadow:0 0 4px 1px fadeout(@black,60%)}
+.promos.light .scale{box-shadow:0 0 4px 1px fadeout(@black,30%)}
+.scale .price{color:@green}
+.navbar-collapse{box-shadow:inset 0 1px 0 fadeout(@white,10%)}
+.navbar-wp .navbar-collapse{background-color:@back-color}
+.navbar-wp .navbar-nav>li{border-bottom:1px solid @border-color}
+.navbar-nav .open .dropdown-submenu>a{border-bottom:1px solid @border-color}
+.navbar-wp .dropdown-menu .mega-nav-section-title{border-bottom:1px solid @border-color;color:@text-color}
+.navbar-wp .dropdown-menu ul.mega-nav-ul li a{border-bottom:1px solid @border-color;color:@text-color}
+.navbar-wp .dropdown-menu ul.mega-nav-ul.arrow-li li a:before{color:@text-color}
+.navbar-wp .dropdown-menu ul.mega-nav-ul.arrow-li li a:hover{color:@base}
+.navbar-wp .dropdown-menu>li>a {color: @text-color}
+}
+
+
+
